@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <style>
+      [v-cloak] {
+        display: none;
+      }
+
+      h5 {
+        line-height: 26px;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <%-include('../header.ejs') %>
+    <div class="container">
+      <div id="app" class="mt-2" v-cloak>
+        <h2>{{ user.FIO }}</h2>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Дата подачи</th>
+              <th scope="col">Кол. наград</th>
+              <th scope="col">Квота</th>
+              <th scope="col">Направление</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">{{ id }}</th>
+              <td>{{new Date(user.DPZ).toLocaleDateString()}}</td>
+              <td>{{ user.IDs.length }}</td>
+              <td>{{ user.Napravlenie }}</td>
+              <td>{{ user.Osnovanie }}</td>
+            </tr>
+          </tbody>
+        </table>
+        <h4 class="mt-4">Достижения:</h4>
+        <table class="table" v-if="user.IDs.length">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Достижение</th>
+              <th scope="col">Оценка</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr v-for="(id, idx) of user.IDs">
+              <th scope="row">{{ idx + 1 }}</th>
+              <td>{{ id.ID }}</td>
+              <td>{{ id.Ocenka }}</td>
+            </tr>
+          </tbody>
+        </table>
+        <h5 class="text-secondary mt-4" v-else>Достижений пока нет</h5>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <script>
+      new Vue({
+        el: '#app',
+
+        data: {
+          user: {},
+          id: '-',
+        },
+
+        async mounted() {
+          const resp = await fetch(
+            window.location.origin +
+              '/api/applicants/get/' +
+              window.location.pathname.split('/')[1]
+          )
+          const data = await resp.json()
+          this.id = parseInt(window.location.pathname.split('/')[1]) + 1
+          this.user = data
+        },
+      })
+    </script>
+  </body>
+</html>
