@@ -44,14 +44,19 @@ var path_1 = __importDefault(require("path"));
 var node_fetch_1 = __importDefault(require("node-fetch"));
 var routes_1 = __importDefault(require("./applicants/routes"));
 var routes_2 = __importDefault(require("./client/routes"));
+var routes_3 = __importDefault(require("./exam/routes"));
+var routes_4 = __importDefault(require("./rating/routes"));
 require('dotenv').config();
 var app = express_1.default();
 var PORT = process.env.PORT || 5000;
 var BFU_URL = process.env.BFU_URL;
+var FETCH_INTERVAL = parseInt(process.env.FETCH_INTERVAL || '300000');
 app.use('/static', express_1.default.static(path_1.default.join(__dirname, '../', 'static')));
 app.use(express_1.default.json());
 app.use(express_1.default.urlencoded({ extended: false }));
 app.use('/api/applicants', routes_1.default);
+app.use('/api/exam', routes_3.default);
+app.use('/api/rating', routes_4.default);
 app.use('/', routes_2.default);
 app.set('view engine', 'ejs');
 app.set('views', path_1.default.join(__dirname, '../', 'templates'));
@@ -74,4 +79,4 @@ setInterval(function () { return __awaiter(void 0, void 0, void 0, function () {
                 return [2 /*return*/];
         }
     });
-}); }, 300000);
+}); }, FETCH_INTERVAL);

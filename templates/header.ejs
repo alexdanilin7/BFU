@@ -18,8 +18,35 @@
           mb-md-0
         "
       >
-        <li><a href="/" class="nav-link px-2 text-white">Абитуриенты</a></li>
+        <li>
+          <a href="/" class="nav-link px-2 text-secondary">Абитуриенты</a>
+        </li>
+        <li>
+          <a href="/exam/" class="nav-link px-2 text-secondary">Экзамен</a>
+        </li>
+        <li>
+          <a href="/rating/" class="nav-link px-2 text-secondary">Рейтинг</a>
+        </li>
       </ul>
     </div>
   </div>
 </header>
+
+<script>
+  if (document.location.pathname.startsWith('/rating')) {
+    document
+      .querySelector('.nav-link[href="/rating/"]')
+      .classList.remove('text-secondary')
+    document.querySelector('.nav-link[href="/rating/"]').style.color = 'white'
+  } else if (document.location.pathname.startsWith('/exam')) {
+    document
+      .querySelector('.nav-link[href="/exam/"]')
+      .classList.remove('text-secondary')
+    document.querySelector('.nav-link[href="/exam/"]').style.color = 'white'
+  } else {
+    document
+      .querySelector('.nav-link[href="/"]')
+      .classList.remove('text-secondary')
+    document.querySelector('.nav-link[href="/"]').style.color = 'white'
+  }
+</script>

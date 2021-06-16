@@ -19,7 +19,7 @@
         line-height: 26px;
       }
     </style>
-    <title>Document</title>
+    <title>Статистика</title>
   </head>
   <body>
     <%-include('../header.ejs') %>
@@ -63,7 +63,7 @@
             </tr>
           </tbody>
         </table>
-        <h5 class="text-secondary mt-4" v-else>Достижений пока нет</h5>
+        <h5 class="text-secondary mt-4" v-else>Достижений нет</h5>
       </div>
     </div>
     <script
@@ -90,6 +90,8 @@
           const data = await resp.json()
           this.id = parseInt(window.location.pathname.split('/')[1]) + 1
           this.user = data
+
+          document.title += ` - ${data.FIO}`
         },
       })
     </script>
