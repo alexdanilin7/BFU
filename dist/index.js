@@ -46,10 +46,14 @@ var routes_1 = __importDefault(require("./applicants/routes"));
 var routes_2 = __importDefault(require("./client/routes"));
 var routes_3 = __importDefault(require("./exam/routes"));
 var routes_4 = __importDefault(require("./rating/routes"));
+var fs_1 = require("fs");
+var service_1 = require("./service");
 require('dotenv').config();
 var app = express_1.default();
 var PORT = process.env.PORT || 5000;
-var BFU_URL = process.env.BFU_URL;
+var APPLICANTS_URL = process.env.APPLICANTS_URL;
+var RATING_URL = process.env.RATING_URL;
+var EXAM_URL = process.env.EXAM_URL;
 var FETCH_INTERVAL = parseInt(process.env.FETCH_INTERVAL || '300000');
 app.use('/static', express_1.default.static(path_1.default.join(__dirname, '../', 'static')));
 app.use(express_1.default.json());
@@ -65,18 +69,40 @@ setInterval(function () { return __awaiter(void 0, void 0, void 0, function () {
     var resp, data;
     return __generator(this, function (_a) {
         switch (_a.label) {
-            case 0: return [4 /*yield*/, node_fetch_1.default(BFU_URL)];
+            case 0: return [4 /*yield*/, node_fetch_1.default(APPLICANTS_URL)];
             case 1:
+                resp = _a.sent();
+                return [4 /*yield*/, resp.json()];
+            case 2:
+                data = _a.sent();
+                fs_1.writeFileSync(path_1.default.join(__dirname, '../', 'static', 'applicants.json'), JSON.stringify(service_1.parseApplicantsList(data)));
+                return [4 /*yield*/, node_fetch_1.default(RATING_URL)];
+            case 3:
                 resp = _a.sent();
                 return [4 /*yield*/, resp.json()
                     // writeFileSync(
-                    //   path.join(__dirname, '../', 'static', 'applicants.json'),
-                    //   JSON.stringify(data)
+                    //   path.join(__dirname, '../', 'static', 'rating.json'),
+                    //   JSON.stringify(parseRatingList(data))
                     // )
                 ];
-            case 2:
+            case 4:
+                data = _a.sent();
+                return [4 /*yield*/, node_fetch_1.default(EXAM_URL)];
+            case 5:
+                // writeFileSync(
+                //   path.join(__dirname, '../', 'static', 'rating.json'),
+                //   JSON.stringify(parseRatingList(data))
+                // )
+                resp = _a.sent();
+                return [4 /*yield*/, resp.json()
+                    // writeFileSync(
+                    //   path.join(__dirname, '../', 'static', 'exam.json'),
+                    //   JSON.stringify(parseExamList(data))
+                    // )
+                ];
+            case 6:
                 data = _a.sent();
                 return [2 /*return*/];
         }
     });
-}); }, FETCH_INTERVAL);
+}); }, 500);

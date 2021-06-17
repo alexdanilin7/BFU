@@ -1,6 +1,6 @@
 import path from 'path'
 import { Request, Response } from 'express'
-import { readFile } from '../applicants/service'
+import { readFile } from '../service'
 
 class RatingController {
   getData(req: Request, res: Response) {

@@ -4,7 +4,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var path_1 = __importDefault(require("path"));
-var service_1 = require("../applicants/service");
+var service_1 = require("../service");
 var ExamController = /** @class */ (function () {
     function ExamController() {
     }

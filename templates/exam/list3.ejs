@@ -99,7 +99,14 @@
         },
 
         methods: {
-          clickHandler() {
+          async clickHandler() {
+            const resp = await fetch(window.location.origin + '/api/exam/get/')
+            const data = await resp.json()
+            const [idx1, idx2] = location.pathname.split('/exam/')[1].split('/')
+            this.list = Object.entries(
+              Object.entries(Object.entries(data)[idx1][1])[idx2][1]
+            )
+
             if (this.timeForm)
               this.list = this.list.filter(
                 el => new Date(el[0]).toLocaleDateString() === this.timeForm

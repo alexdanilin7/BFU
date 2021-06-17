@@ -3,7 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.parseApplicantsList = exports.readFile = void 0;
+exports.parseExamList = exports.parseRatingList = exports.parseApplicantsList = exports.readFile = void 0;
 var fs_1 = __importDefault(require("fs"));
 function readFile(path) {
     return JSON.parse(fs_1.default.readFileSync(path, 'utf-8'));
@@ -26,3 +26,11 @@ function parseApplicantsList(data) {
     return list;
 }
 exports.parseApplicantsList = parseApplicantsList;
+function parseRatingList(data) {
+    return data;
+}
+exports.parseRatingList = parseRatingList;
+function parseExamList(data) {
+    return data;
+}
+exports.parseExamList = parseExamList;

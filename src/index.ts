@@ -6,10 +6,14 @@ import ClientRouter from './client/routes'
 import ExamRouter from './exam/routes'
 import RatingRouter from './rating/routes'
 import { writeFileSync } from 'fs'
+import { parseApplicantsList, parseRatingList, parseExamList } from './service'
 require('dotenv').config()
 const app = express()
 const PORT = process.env.PORT || 5000
-const BFU_URL = process.env.BFU_URL
+
+const APPLICANTS_URL = process.env.APPLICANTS_URL
+const RATING_URL = process.env.RATING_URL
+const EXAM_URL = process.env.EXAM_URL
 const FETCH_INTERVAL = parseInt(process.env.FETCH_INTERVAL || '300000')
 
 app.use('/static', express.static(path.join(__dirname, '../', 'static')))
@@ -26,11 +30,24 @@ app.set('views', path.join(__dirname, '../', 'templates'))
 app.listen(PORT, () => console.log(`Server has been started on port ${PORT}!`))
 
 setInterval(async () => {
-  const resp = await fetch(BFU_URL!)
-  const data = await resp.json()
-
+  let resp = await fetch(APPLICANTS_URL!)
+  let data = await resp.json()
   // writeFileSync(
   //   path.join(__dirname, '../', 'static', 'applicants.json'),
-  //   JSON.stringify(data)
+  //   JSON.stringify(parseApplicantsList(data))
+  // )
+
+  resp = await fetch(RATING_URL!)
+  data = await resp.json()
+  // writeFileSync(
+  //   path.join(__dirname, '../', 'static', 'rating.json'),
+  //   JSON.stringify(parseRatingList(data))
+  // )
+
+  resp = await fetch(EXAM_URL!)
+  data = await resp.json()
+  // writeFileSync(
+  //   path.join(__dirname, '../', 'static', 'exam.json'),
+  //   JSON.stringify(parseExamList(data))
   // )
 }, FETCH_INTERVAL)

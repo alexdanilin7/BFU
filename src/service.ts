@@ -4,7 +4,7 @@ export function readFile(path: string) {
   return JSON.parse(fs.readFileSync(path, 'utf-8'))
 }
 
-export function parseList(data: any[]): any[] {
+export function parseApplicantsList(data: any): any {
   let list: any[] = []
 
   for (const el of data) {
@@ -20,4 +20,12 @@ export function parseList(data: any[]): any[] {
     list = list.concat(abs)
   }
   return list
+}
+
+export function parseRatingList(data: any): any {
+  return data
+}
+
+export function parseExamList(data: any): any {
+  return data
 }

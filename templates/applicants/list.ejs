@@ -106,6 +106,12 @@
 
         methods: {
           async clickHandler() {
+            const resp = await fetch(
+              window.location.origin + '/api/applicants/get/'
+            )
+            const data = await resp.json()
+            this.list = data
+
             if (this.osnovanieForm) {
               this.list = this.list.filter(
                 el => el.Osnovanie === this.osnovanieForm

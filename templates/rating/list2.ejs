@@ -80,7 +80,14 @@
         },
 
         methods: {
-          clickHandler() {
+          async clickHandler() {
+            const resp = await fetch(
+              window.location.origin + '/api/rating/get/'
+            )
+            const data = await resp.json()
+            const idx = location.pathname.split('/rating/')[1]
+
+            this.list = Object.entries(Object.entries(data)[idx][1])
             if (this.subjectForm)
               this.list = this.list.filter(el => el[1] === this.subjectForm)
           },
