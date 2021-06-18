@@ -12,10 +12,10 @@
       ],
       "2020-09-12T09:59:09": [
         {
-          "first_name": "Mike",
-          "seccond_name": "Lala",
-          "third_name": "lalal",
-          "point": 70,
+          "first_name": "Иван",
+          "seccond_name": "Иванов",
+          "third_name": "Иванович",
+          "point": 50,
           "stringPoint": "семьдесят"
         }
       ]
@@ -35,9 +35,9 @@
       ],
       "2020-09-12T09:59:09": [
         {
-          "first_name": "Mike",
-          "seccond_name": "Lala",
-          "third_name": "lalal",
+          "first_name": "Иван",
+          "seccond_name": "Иванов",
+          "third_name": "Иванович",
           "point": 70,
           "stringPoint": "семьдесят"
         }
@@ -55,9 +55,9 @@
       ],
       "2020-09-12T09:59:09": [
         {
-          "first_name": "Mike",
-          "seccond_name": "Lala",
-          "third_name": "lalal",
+          "first_name": "Иван",
+          "seccond_name": "Иванов",
+          "third_name": "Иванович",
           "point": 70,
           "stringPoint": "семьдесят"
         }
