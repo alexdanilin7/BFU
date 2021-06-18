@@ -46,8 +46,6 @@ var routes_1 = __importDefault(require("./applicants/routes"));
 var routes_2 = __importDefault(require("./client/routes"));
 var routes_3 = __importDefault(require("./exam/routes"));
 var routes_4 = __importDefault(require("./rating/routes"));
-var fs_1 = require("fs");
-var service_1 = require("./service");
 require('dotenv').config();
 var app = express_1.default();
 var PORT = process.env.PORT || 5000;
@@ -72,12 +70,20 @@ setInterval(function () { return __awaiter(void 0, void 0, void 0, function () {
             case 0: return [4 /*yield*/, node_fetch_1.default(APPLICANTS_URL)];
             case 1:
                 resp = _a.sent();
-                return [4 /*yield*/, resp.json()];
+                return [4 /*yield*/, resp.json()
+                    // writeFileSync(
+                    //   path.join(__dirname, '../', 'static', 'applicants.json'),
+                    //   JSON.stringify(parseApplicantsList(data))
+                    // )
+                ];
             case 2:
                 data = _a.sent();
-                fs_1.writeFileSync(path_1.default.join(__dirname, '../', 'static', 'applicants.json'), JSON.stringify(service_1.parseApplicantsList(data)));
                 return [4 /*yield*/, node_fetch_1.default(RATING_URL)];
             case 3:
+                // writeFileSync(
+                //   path.join(__dirname, '../', 'static', 'applicants.json'),
+                //   JSON.stringify(parseApplicantsList(data))
+                // )
                 resp = _a.sent();
                 return [4 /*yield*/, resp.json()
                     // writeFileSync(
@@ -105,4 +111,4 @@ setInterval(function () { return __awaiter(void 0, void 0, void 0, function () {
                 return [2 /*return*/];
         }
     });
-}); }, 500);
+}); }, FETCH_INTERVAL);
