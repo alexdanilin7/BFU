@@ -26,50 +26,31 @@
           <h4>Уровень образования - {{ id1 }}</h4>
           <h4>Направление - {{ id2 }}</h4>
         </div>
-        <input
-          type="text"
-          class="form-control m-2"
-          placeholder="Фильтр по источнику финансирования"
-          v-model="cashForm"
-          value="cashForm"
-        />
-        <input
-          type="text"
-          class="form-control m-2"
-          placeholder="Фильтр по форме обучения"
-          v-model="eduForm"
-          value="eduForm"
-        />
-        <button class="btn btn-success m-2 mb-4" @click="clickHandler">
-          Фильтровать
-        </button>
-        <button class="btn btn-danger m-2 mb-4" @click="resetFilters">
-          Сбросить фильтры
-        </button>
-        <table class="table table-striped">
-          <thead>
-            <tr>
-              <th scope="col">#</th>
-              <th scope="col">Фио</th>
-              <th scope="col">Дата подачи</th>
-              <th scope="col">Кол. наград</th>
-              <th scope="col">Форма обучения</th>
-              <th scope="col">Источник финансированию</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr v-for="(el, idx) of list">
-              <th scope="row">{{ idx + 1 }}</th>
-              <td>
-                <a :href="'/' + 'applicants/' + el.idx">{{ el.FIO }}</a>
-              </td>
-              <td>{{new Date(el.DPZ).toLocaleDateString()}}</td>
-              <td>{{ el.IDs.length }}</td>
-              <td>{{ el.Form }}</td>
-              <td>{{ el.Osnovanie }}</td>
-            </tr>
-          </tbody>
-        </table>
+        <details v-for="arr of list" open>
+          <summary>{{ arr[0] }}</summary>
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col" class="text-primary">{{ arr[0] }}</th>
+                <th scope="col">Фио</th>
+                <th scope="col">Дата подачи</th>
+                <th scope="col">Кол. наград</th>
+                <th scope="col">Форма обучения</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr v-for="(el, idx) of arr[1]">
+                <th scope="row">{{ idx + 1 }}</th>
+                <td>
+                  <a :href="'/' + 'applicants/' + el.idx">{{ el.FIO }}</a>
+                </td>
+                <td>{{new Date(el.DPZ).toLocaleDateString()}}</td>
+                <td>{{ el.IDs.length }}</td>
+                <td>{{ el.Form }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </details>
       </div>
     </div>
     <a href="#start" class="button btn btn-dark btn-lg">&uArr;</a>
@@ -87,10 +68,9 @@
 
         data: {
           list: [],
-          cashForm: '',
-          eduForm: '',
           id1: '',
           id2: '',
+          osnavanieArr: [],
         },
 
         async mounted() {
@@ -104,44 +84,23 @@
           document.querySelector('#id1').remove()
           document.querySelector('#id2').remove()
 
-          const data = await resp.json()
+          let data = await resp.json()
 
-          this.list = data.filter(
+          data = data.filter(
             el => el.TrainingLevel === id1 && el.Napravlenie === id2
           )
-        },
+          const set = new Set()
+          const arr = []
 
-        methods: {
-          async clickHandler() {
-            const resp = await fetch(
-              window.location.origin + '/api/applicants/get/'
-            )
-            const data = await resp.json()
-            this.list = data.filter(
-              el => el.TrainingLevel === this.id1 && el.Napravlenie === this.id2
-            )
+          for (const { Osnovanie } of data) {
+            set.add(Osnovanie)
+          }
 
-            if (this.cashForm) {
-              this.list = this.list.filter(el => el.Osnovanie === this.cashForm)
-            }
-            if (this.eduForm) {
-              this.list = this.list.filter(el => el.Form === this.eduForm)
-            }
-          },
-
-          async resetFilters() {
-            const resp = await fetch(
-              window.location.origin + '/api/applicants/get/'
-            )
-            const data = await resp.json()
-
-            this.list = data.filter(
-              el => el.TrainingLevel === this.id1 && el.Napravlenie === this.id2
-            )
-
-            this.cashForm = this.eduForm = ''
-            this.prizeForm = null
-          },
+          for (s of set) {
+            arr.push([s, data.filter(el => el.Osnovanie === s)])
+          }
+          this.osnavanieArr = set
+          this.list = arr
         },
       })
 
