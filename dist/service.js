@@ -11,14 +11,19 @@ function readFile(path) {
 exports.readFile = readFile;
 function parseApplicantsList(data) {
     var list = [];
+    var idx = -1;
     for (var _i = 0, data_1 = data; _i < data_1.length; _i++) {
         var el = data_1[_i];
         var abs = [];
         for (var i = 0; i < el.Abits.length; i++) {
+            idx++;
             var a = el.Abits[i];
             a.Napravlenie = el.Napravlenie;
             a.Osnovanie = el.Osnovanie;
             a.IDs = el.IDs || [];
+            a.TrainingLevel = el.TrainingLevel;
+            a.Form = el.Form;
+            a.idx = idx;
             abs.push(a);
         }
         list = list.concat(abs);

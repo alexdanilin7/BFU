@@ -1,8 +1,20 @@
 import { Request, Response } from 'express'
 
 class ClientController {
-  applicantsList(req: Request, res: Response) {
-    res.render('applicants/list')
+  applicantsList1(req: Request, res: Response) {
+    res.render('applicants/list1')
+  }
+
+  applicantsList2(req: Request, res: Response) {
+    const { id } = req.params
+
+    res.render('applicants/list2', { id })
+  }
+
+  applicantsList3(req: Request, res: Response) {
+    const { id1, id2 } = req.params
+
+    res.render('applicants/list3', { id1, id2 })
   }
 
   applicantsDetail(req: Request, res: Response) {

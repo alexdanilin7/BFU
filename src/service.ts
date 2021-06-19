@@ -6,14 +6,18 @@ export function readFile(path: string) {
 
 export function parseApplicantsList(data: any): any {
   let list: any[] = []
-
+  let idx = -1
   for (const el of data) {
     const abs = []
     for (let i = 0; i < el.Abits.length; i++) {
+      idx++
       const a = el.Abits[i]
       a.Napravlenie = el.Napravlenie
       a.Osnovanie = el.Osnovanie
       a.IDs = el.IDs || []
+      a.TrainingLevel = el.TrainingLevel
+      a.Form = el.Form
+      a.idx = idx
 
       abs.push(a)
     }

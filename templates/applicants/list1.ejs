@@ -14,56 +14,29 @@
       [v-cloak] {
         display: none;
       }
-
-      h5 {
-        line-height: 26px;
-      }
     </style>
     <title>Статистика</title>
   </head>
-  <body>
+  <body id="start">
     <%-include('../header.ejs') %>
     <div class="container">
-      <div id="app" class="mt-2" v-cloak>
-        <h2>{{ user.FIO }}</h2>
-        <table class="table">
+      <div id="app" v-cloak>
+        <table class="table table-striped">
           <thead>
             <tr>
               <th scope="col">#</th>
-              <th scope="col">Дата подачи</th>
-              <th scope="col">Кол. наград</th>
               <th scope="col">Уровень образования</th>
-              <th scope="col">Специальность</th>
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <th scope="row">{{ id }}</th>
-              <td>{{new Date(user.DPZ).toLocaleDateString()}}</td>
-              <td>{{ user.IDs.length }}</td>
-              <td>{{ user.Napravlenie }}</td>
-              <td>{{ user.Osnovanie }}</td>
-            </tr>
-          </tbody>
-        </table>
-        <h4 class="mt-4">Достижения:</h4>
-        <table class="table" v-if="user.IDs.length">
-          <thead>
-            <tr>
-              <th scope="col">#</th>
-              <th scope="col">Достижение</th>
-              <th scope="col">Оценка</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr v-for="(id, idx) of user.IDs">
+            <tr v-for="(el, idx) of list">
               <th scope="row">{{ idx + 1 }}</th>
-              <td>{{ id.ID }}</td>
-              <td>{{ id.Ocenka }}</td>
+              <td>
+                <a :href="el">{{ el }}</a>
+              </td>
             </tr>
           </tbody>
         </table>
-        <h5 class="text-secondary mt-4" v-else>Достижений нет</h5>
       </div>
     </div>
     <script
@@ -77,21 +50,24 @@
         el: '#app',
 
         data: {
-          user: {},
-          id: '-',
+          list: [],
+          napravlenieForm: '',
+          osnovanieForm: '',
+          timeForm: '',
+          prizeForm: '',
         },
 
         async mounted() {
           const resp = await fetch(
-            window.location.origin +
-              '/api/applicants/get/' +
-              window.location.pathname.split('/')[2]
+            window.location.origin + '/api/applicants/get/'
           )
           const data = await resp.json()
-          this.id = parseInt(window.location.pathname.split('/')[1]) + 1
-          this.user = data
+          const s = new Set()
+          for (const { TrainingLevel } of data) {
+            s.add(TrainingLevel)
+          }
 
-          document.title += ` - ${data.FIO}`
+          this.list = s
         },
       })
     </script>
