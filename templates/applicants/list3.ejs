@@ -109,9 +109,11 @@
             set.add(`${Osnovanie}|||${Plan}`)
           }
           for (s of set) {
-            const user = data.filter(el => el.Osnovanie === s[0])
+            const se = s.split('|||')
+            const user = data.filter(el => el.Osnovanie === se[0])
+            console.log(user)
             arr.push([
-              s.split('|||'),
+              se,
               user.sort(function (a, b) {
                 if (a.FIO < b.FIO) {
                   return -1
