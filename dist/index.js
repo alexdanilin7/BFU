@@ -47,6 +47,8 @@ var routes_1 = __importDefault(require("./applicants/routes"));
 var routes_2 = __importDefault(require("./client/routes"));
 var routes_3 = __importDefault(require("./exam/routes"));
 var routes_4 = __importDefault(require("./rating/routes"));
+var fs_1 = require("fs");
+var service_1 = require("./service");
 require('dotenv').config();
 var app = express_1.default();
 var PORT = process.env.PORT || 5000;
@@ -77,26 +79,10 @@ setInterval(function () { return __awaiter(void 0, void 0, void 0, function () {
                 })];
             case 1:
                 resp = _a.sent();
-                return [4 /*yield*/, resp.json()
-                    // writeFileSync(
-                    //   path.join(__dirname, '../', 'static', 'applicants.json'),
-                    //   JSON.stringify(parseApplicantsList(data))
-                    // )
-                    // resp = await fetch(RATING_URL!)
-                    // data = await resp.json()
-                    // writeFileSync(
-                    //   path.join(__dirname, '../', 'static', 'rating.json'),
-                    //   JSON.stringify(parseRatingList(data))
-                    // )
-                    // resp = await fetch(EXAM_URL!)
-                    // data = await resp.json()
-                    // writeFileSync(
-                    //   path.join(__dirname, '../', 'static', 'exam.json'),
-                    //   JSON.stringify(parseExamList(data))
-                    // )
-                ];
+                return [4 /*yield*/, resp.json()];
             case 2:
                 data = _a.sent();
+                fs_1.writeFileSync(path_1.default.join(__dirname, '../', 'static', 'applicants.json'), JSON.stringify(service_1.parseApplicantsList(data)));
                 return [2 /*return*/];
         }
     });

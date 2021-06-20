@@ -39,10 +39,10 @@ setInterval(async () => {
     },
   })
   let data = await resp.json()
-  // writeFileSync(
-  //   path.join(__dirname, '../', 'static', 'applicants.json'),
-  //   JSON.stringify(parseApplicantsList(data))
-  // )
+  writeFileSync(
+    path.join(__dirname, '../', 'static', 'applicants.json'),
+    JSON.stringify(parseApplicantsList(data))
+  )
 
   // resp = await fetch(RATING_URL!)
   // data = await resp.json()
