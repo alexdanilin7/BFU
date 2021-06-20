@@ -41,19 +41,23 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var express_1 = __importDefault(require("express"));
 var path_1 = __importDefault(require("path"));
+var node_fetch_1 = __importDefault(require("node-fetch"));
+var base_64_1 = __importDefault(require("base-64"));
 var routes_1 = __importDefault(require("./applicants/routes"));
 var routes_2 = __importDefault(require("./client/routes"));
 var routes_3 = __importDefault(require("./exam/routes"));
 var routes_4 = __importDefault(require("./rating/routes"));
+var fs_1 = require("fs");
+var service_1 = require("./service");
 require('dotenv').config();
 var app = express_1.default();
 var PORT = process.env.PORT || 5000;
-// const APPLICANTS_URL = process.env.APPLICANTS_URL
+var APPLICANTS_URL = process.env.APPLICANTS_URL;
 // const RATING_URL = process.env.RATING_URL
 // const EXAM_URL = process.env.EXAM_URL
 var FETCH_INTERVAL = parseInt(process.env.FETCH_INTERVAL || '300000');
-// const LOGIN = process.env.LOGIN
-// const PASSWORD = process.env.PASSWORD
+var LOGIN = process.env.LOGIN;
+var PASSWORD = process.env.PASSWORD;
 app.use('/static', express_1.default.static(path_1.default.join(__dirname, '../', 'static')));
 app.use(express_1.default.json());
 app.use(express_1.default.urlencoded({ extended: false }));
@@ -65,7 +69,21 @@ app.set('view engine', 'ejs');
 app.set('views', path_1.default.join(__dirname, '../', 'templates'));
 app.listen(PORT, function () { return console.log("Server has been started on port " + PORT + "!"); });
 setInterval(function () { return __awaiter(void 0, void 0, void 0, function () {
+    var resp, data;
     return __generator(this, function (_a) {
-        return [2 /*return*/];
+        switch (_a.label) {
+            case 0: return [4 /*yield*/, node_fetch_1.default(APPLICANTS_URL, {
+                    headers: {
+                        Authorization: 'Basic' + base_64_1.default.encode(LOGIN + ':' + PASSWORD),
+                    },
+                })];
+            case 1:
+                resp = _a.sent();
+                return [4 /*yield*/, resp.json()];
+            case 2:
+                data = _a.sent();
+                fs_1.writeFileSync(path_1.default.join(__dirname, '../', 'static', 'applicants.json'), JSON.stringify(service_1.parseApplicantsList(data)));
+                return [2 /*return*/];
+        }
     });
 }); }, FETCH_INTERVAL);
