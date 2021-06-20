@@ -24,7 +24,7 @@
       <div id="app" v-cloak>
         <div class="m-2 my-4">
           <h4>Уровень образования - {{ id1 }}</h4>
-          <h4>Направление - {{ id2 }}</h4>
+          <h4>Направление\Специальность - {{ id2 }}</h4>
         </div>
         <details v-for="arr of list" open>
           <summary>{{ arr[0][0] }}. {{ arr[0][1] }}</summary>
@@ -34,12 +34,12 @@
                 <th scope="col" class="text-primary">
                   {{ arr[0][0] }}. {{ arr[0][1] }}
                 </th>
-                <th scope="col">Фио</th>
+                <th scope="col">ФИО</th>
                 <th scope="col">Дата подачи</th>
-                <th scope="col">Кол. наград</th>
+                <th scope="col">Кол. ИД</th>
                 <th scope="col">Форма обучения</th>
                 <th scope="col">Квота</th>
-                <th scope="col">Тип испытания</th>
+                <th scope="col">Тип испытания(предмет, форма)</th>
               </tr>
             </thead>
             <tbody>
@@ -111,7 +111,6 @@
           for (s of set) {
             const se = s.split('|||')
             const user = data.filter(el => el.Osnovanie === se[0])
-            console.log(user)
             arr.push([
               se,
               user.sort(function (a, b) {

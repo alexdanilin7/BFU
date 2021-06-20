@@ -24,6 +24,9 @@ function parseApplicantsList(data) {
             a.TrainingLevel = el.TrainingLevel;
             a.Form = el.Form;
             a.Plan = el.Plan;
+            a.Vstupitelnie = a.Vstupitelnie.map(function (el) {
+                return el.replace('Предмет: ', '').replace(', форма испытания:', ',');
+            });
             a.idx = idx;
             abs.push(a);
         }

@@ -18,6 +18,9 @@ export function parseApplicantsList(data: any): any {
       a.TrainingLevel = el.TrainingLevel
       a.Form = el.Form
       a.Plan = el.Plan
+      a.Vstupitelnie = a.Vstupitelnie.map((el: string) => {
+        return el.replace('Предмет: ', '').replace(', форма испытания:', ',')
+      })
       a.idx = idx
 
       abs.push(a)
