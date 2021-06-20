@@ -8,5 +8,5 @@ var controller_1 = __importDefault(require("./controller"));
 var router = express_1.Router();
 router.get('/get/', controller_1.default.getData);
 router.get('/get/:id', controller_1.default.getDetail);
-router.post('/set/', controller_1.default.setData);
+// router.post('/set/', ApplicantsController.setData)
 exports.default = router;
