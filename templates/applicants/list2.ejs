@@ -105,7 +105,10 @@
             this.list = Array(...s).sort()
 
             if (this.napravlenieForm) {
-              this.list = this.list.filter(el => el === this.napravlenieForm)
+              this.list = this.list.filter(el => {
+                console.log(el.indexOf(this.napravlenieForm) + 1)
+                return el.indexOf(this.napravlenieForm) + 1
+              })
             }
           },
 

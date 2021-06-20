@@ -42,6 +42,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var express_1 = __importDefault(require("express"));
 var path_1 = __importDefault(require("path"));
 var node_fetch_1 = __importDefault(require("node-fetch"));
+var base_64_1 = __importDefault(require("base-64"));
 var routes_1 = __importDefault(require("./applicants/routes"));
 var routes_2 = __importDefault(require("./client/routes"));
 var routes_3 = __importDefault(require("./exam/routes"));
@@ -53,6 +54,8 @@ var APPLICANTS_URL = process.env.APPLICANTS_URL;
 var RATING_URL = process.env.RATING_URL;
 var EXAM_URL = process.env.EXAM_URL;
 var FETCH_INTERVAL = parseInt(process.env.FETCH_INTERVAL || '300000');
+var LOGIN = process.env.LOGIN;
+var PASSWORD = process.env.PASSWORD;
 app.use('/static', express_1.default.static(path_1.default.join(__dirname, '../', 'static')));
 app.use(express_1.default.json());
 app.use(express_1.default.urlencoded({ extended: false }));
@@ -67,7 +70,11 @@ setInterval(function () { return __awaiter(void 0, void 0, void 0, function () {
     var resp, data;
     return __generator(this, function (_a) {
         switch (_a.label) {
-            case 0: return [4 /*yield*/, node_fetch_1.default(APPLICANTS_URL)];
+            case 0: return [4 /*yield*/, node_fetch_1.default(APPLICANTS_URL, {
+                    headers: {
+                        Authorization: 'Basic' + base_64_1.default.encode(LOGIN + ':' + PASSWORD),
+                    },
+                })];
             case 1:
                 resp = _a.sent();
                 return [4 /*yield*/, resp.json()
@@ -75,38 +82,20 @@ setInterval(function () { return __awaiter(void 0, void 0, void 0, function () {
                     //   path.join(__dirname, '../', 'static', 'applicants.json'),
                     //   JSON.stringify(parseApplicantsList(data))
                     // )
-                ];
-            case 2:
-                data = _a.sent();
-                return [4 /*yield*/, node_fetch_1.default(RATING_URL)];
-            case 3:
-                // writeFileSync(
-                //   path.join(__dirname, '../', 'static', 'applicants.json'),
-                //   JSON.stringify(parseApplicantsList(data))
-                // )
-                resp = _a.sent();
-                return [4 /*yield*/, resp.json()
+                    // resp = await fetch(RATING_URL!)
+                    // data = await resp.json()
                     // writeFileSync(
                     //   path.join(__dirname, '../', 'static', 'rating.json'),
                     //   JSON.stringify(parseRatingList(data))
                     // )
-                ];
-            case 4:
-                data = _a.sent();
-                return [4 /*yield*/, node_fetch_1.default(EXAM_URL)];
-            case 5:
-                // writeFileSync(
-                //   path.join(__dirname, '../', 'static', 'rating.json'),
-                //   JSON.stringify(parseRatingList(data))
-                // )
-                resp = _a.sent();
-                return [4 /*yield*/, resp.json()
+                    // resp = await fetch(EXAM_URL!)
+                    // data = await resp.json()
                     // writeFileSync(
                     //   path.join(__dirname, '../', 'static', 'exam.json'),
                     //   JSON.stringify(parseExamList(data))
                     // )
                 ];
-            case 6:
+            case 2:
                 data = _a.sent();
                 return [2 /*return*/];
         }

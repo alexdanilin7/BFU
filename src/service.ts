@@ -12,11 +12,12 @@ export function parseApplicantsList(data: any): any {
     for (let i = 0; i < el.Abits.length; i++) {
       idx++
       const a = el.Abits[i]
-      a.Napravlenie = el.Napravlenie
+      a.Napravlenie = el.Napravlenie.replace('/', '|')
       a.Osnovanie = el.Osnovanie
       a.IDs = el.IDs || []
       a.TrainingLevel = el.TrainingLevel
       a.Form = el.Form
+      a.Plan = el.Plan
       a.idx = idx
 
       abs.push(a)
