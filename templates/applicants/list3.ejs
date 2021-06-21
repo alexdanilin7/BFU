@@ -46,7 +46,7 @@
               <tr v-for="(el, idx) of arr[1]">
                 <th scope="row">{{ idx + 1 }}</th>
                 <td>
-                  <a :href="'/' + 'applicants/' + el.FIO">{{ el.FIO }}</a>
+                  <a :href="'/' + 'applicants/' + el.idx">{{ el.FIO }}</a>
                 </td>
                 <td>{{new Date(el.DPZ).toLocaleDateString()}}</td>
                 <td>{{ el.IDS.length }}</td>
@@ -62,11 +62,6 @@
                       <li class="list-group-item" v-for="v of el.Vstupitelnie">
                         {{ v }}
                       </li>
-                    </ul>
-                  </div>
-                  <div class="card" style="width: 18rem" v-else>
-                    <ul class="list-group list-group-flush">
-                      <li class="list-group-item">нет, нет</li>
                     </ul>
                   </div>
                 </td>
