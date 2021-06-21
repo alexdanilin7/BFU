@@ -27,7 +27,7 @@ class ApplicantsController {
     const data: Applicant[] = readFile(
       path.join(__dirname, '../', '../', 'static', 'applicants.json')
     )
-    res.json(data.find((el, idx) => idx.toString() === id) || {})
+    res.json(data.find(el => el.FIO === id) || {})
   }
 }
 

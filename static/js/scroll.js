@@ -1,4 +1,5 @@
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', event => {
+  event.preventDefault()
   for (const btn of document.querySelectorAll('a[href*="#"]')) {
     btn.addEventListener('click', event => {
       event.preventDefault()

@@ -22,7 +22,7 @@ var ApplicantsController = /** @class */ (function () {
     ApplicantsController.prototype.getDetail = function (req, res) {
         var id = req.params.id;
         var data = service_1.readFile(path_1.default.join(__dirname, '../', '../', 'static', 'applicants.json'));
-        res.json(data.find(function (el, idx) { return idx.toString() === id; }) || {});
+        res.json(data.find(function (el) { return el.FIO === id; }) || {});
     };
     return ApplicantsController;
 }());

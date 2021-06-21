@@ -19,7 +19,7 @@
         line-height: 26px;
       }
     </style>
-    <title>Статистика</title>
+    <title>Информация о приёме</title>
   </head>
   <body>
     <%-include('../header.ejs') %>
@@ -30,13 +30,13 @@
           <thead>
             <tr>
               <th scope="col">Дата подачи</th>
-              <th scope="col">Кол. наград</th>
+              <th scope="col">Кол-во ИД</th>
               <th scope="col">Уровень образования</th>
               <th scope="col">Основа обучения</th>
-              <th scope="col">Направление</th>
+              <th scope="col">Направление/Специальность</th>
               <th scope="col">Форма обучения</th>
               <th scope="col">Квота</th>
-              <th scope="col">План</th>
+              <th scope="col">План набора</th>
             </tr>
           </thead>
           <tbody>
@@ -70,17 +70,12 @@
           </tbody>
         </table>
         <h5 class="text-secondary mt-4" v-else>Достижений нет</h5>
-        <h4 class="mt-4">Тип испытания(предмет, форма):</h4>
-        <div class="card mb-4" v-if="user.Vstupitelnie.length">
+        <h4 class="mt-4">Предмет, Тип испытания:</h4>
+        <div class="card mb-4">
           <ul class="list-group list-group-flush">
             <li class="list-group-item" v-for="v of user.Vstupitelnie">
               {{ v }}
             </li>
-          </ul>
-        </div>
-        <div class="card" style="width: 18rem" v-else>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">нет, нет</li>
           </ul>
         </div>
       </div>

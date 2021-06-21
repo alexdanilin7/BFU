@@ -16,7 +16,7 @@
         display: none;
       }
     </style>
-    <title>Статистика</title>
+    <title>Информация о приёме</title>
   </head>
   <body id="start">
     <%-include('../header.ejs') %>
@@ -24,7 +24,7 @@
       <div id="app" v-cloak>
         <div class="m-2 my-4">
           <h4>Уровень образования - {{ id1 }}</h4>
-          <h4>Направление\Специальность - {{ id2 }}</h4>
+          <h4>Направление/Специальность - {{ id2 }}</h4>
         </div>
         <details v-for="arr of list" open>
           <summary>{{ arr[0][0] }}. {{ arr[0][1] }}</summary>
@@ -36,17 +36,17 @@
                 </th>
                 <th scope="col">ФИО</th>
                 <th scope="col">Дата подачи</th>
-                <th scope="col">Кол. ИД</th>
+                <th scope="col">Кол-во ИД</th>
                 <th scope="col">Форма обучения</th>
                 <th scope="col">Квота</th>
-                <th scope="col">Тип испытания(предмет, форма)</th>
+                <th scope="col">Предмет, Тип испытания</th>
               </tr>
             </thead>
             <tbody>
               <tr v-for="(el, idx) of arr[1]">
                 <th scope="row">{{ idx + 1 }}</th>
                 <td>
-                  <a :href="'/' + 'applicants/' + el.idx">{{ el.FIO }}</a>
+                  <a :href="'/' + 'applicants/' + el.FIO">{{ el.FIO }}</a>
                 </td>
                 <td>{{new Date(el.DPZ).toLocaleDateString()}}</td>
                 <td>{{ el.IDs.length }}</td>
