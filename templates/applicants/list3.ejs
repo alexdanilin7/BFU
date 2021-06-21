@@ -53,11 +53,20 @@
                 <td>{{ el.Form }}</td>
                 <td>{{ el.Kvota }}</td>
                 <td>
-                  <div class="card" style="width: 18rem">
+                  <div
+                    class="card"
+                    style="width: 18rem"
+                    v-if="el.Vstupitelnie.length"
+                  >
                     <ul class="list-group list-group-flush">
                       <li class="list-group-item" v-for="v of el.Vstupitelnie">
                         {{ v }}
                       </li>
+                    </ul>
+                  </div>
+                  <div class="card" style="width: 18rem" v-else>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">нет, нет</li>
                     </ul>
                   </div>
                 </td>

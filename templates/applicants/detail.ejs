@@ -53,7 +53,7 @@
           </tbody>
         </table>
         <h4 class="mt-4">Достижения:</h4>
-        <table class="table" v-if="user.IDs.length">
+        <table class="table table-striped" v-if="user.IDS.length">
           <thead>
             <tr>
               <th scope="col">#</th>
@@ -62,7 +62,7 @@
             </tr>
           </thead>
           <tbody>
-            <tr v-for="(id, idx) of user.IDs">
+            <tr v-for="(id, idx) of user.IDS">
               <th scope="row">{{ idx + 1 }}</th>
               <td>{{ id.ID }}</td>
               <td>{{ id.Ocenka }}</td>
@@ -104,6 +104,8 @@
           const data = await resp.json()
           this.id = parseInt(window.location.pathname.split('/')[1]) + 1
           this.user = data
+
+          console.log(data.IDS)
 
           document.title += ` - ${data.FIO}`
         },
