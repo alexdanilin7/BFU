@@ -12,11 +12,11 @@ def parse_data(data: str) -> list:
             idx += 1
             a['Napravlenie'] = el['Napravlenie'].replace('/', '|')
             a['Osnovanie'] = el['Osnovanie']
-            a['IDs'] = [] if 'IDS' not in  el.keys() else el['IDs']
+            a['IDS'] = [] if 'IDS' not in  el.keys() else el['IDs']
             a['TrainingLevel'] = el['TrainingLevel']
             a['Form'] = el['Form']
             a['Plan'] = el['Plan']
-            a['Vstupitelnie'] = list(map(lambda el: el.replace('Предмет: ', '').replace(', форма испытания:', ','), a['Vstupitelnie']))
+            a['Vstupitelnie'] = [] if 'Vstupitelnie' not in  el.keys() else list(map(lambda el: el.replace('Предмет: ', '').replace(', форма испытания:', ','), a['Vstupitelnie']))
             a['idx'] = idx
             abs.append(a)
 
