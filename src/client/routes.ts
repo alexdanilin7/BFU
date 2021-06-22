@@ -4,6 +4,7 @@ const router = Router()
 
 router.get('/', ClientController.applicantsList1)
 router.get('/:id', ClientController.applicantsList2)
+router.get('/statistic/applicants/', ClientController.applicantsStatistic)
 router.get('/applicants/:id', ClientController.applicantsDetail)
 router.get('/:id1/:id2', ClientController.applicantsList3)
 router.get('/exam/', ClientController.examList1)

@@ -17,6 +17,9 @@ var ClientController = /** @class */ (function () {
     ClientController.prototype.applicantsDetail = function (req, res) {
         res.render('applicants/detail');
     };
+    ClientController.prototype.applicantsStatistic = function (req, res) {
+        res.render('statistic/applicants');
+    };
     ClientController.prototype.examList1 = function (req, res) {
         res.render('exam/list1');
     };

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/static/css/applicants/list.css" />
+    <style>
+      [v-cloak] {
+        display: none;
+      }
+    </style>
+    <title>Статистика</title>
+  </head>
+  <body id="start">
+    <%-include('../header.ejs') %>
+    <div class="container" id="main"></div>
+    <a href="#start" class="button btn btn-dark btn-lg">&uArr;</a>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.3.2/dist/chart.min.js"></script>
+    <script>
+      async function start() {
+        const resp = await fetch('/static/applicants_statistic.json')
+        const fetchData = await resp.json()
+        const container = document.querySelector('#main')
+        for (const [key, value] of Object.entries(fetchData)) {
+          const canvas = document.createElement('canvas')
+          const ctx = canvas.getContext('2d')
+          container.append(canvas)
+
+          const data = {
+            labels: [],
+            datasets: [
+              {
+                label: key,
+                data: [],
+                backgroundColor: [],
+              },
+            ],
+          }
+
+          for (const [label, val] of Object.entries(value)) {
+            data.labels.push(label)
+            data.datasets[0].backgroundColor.push(getRandColor())
+            data.datasets[0].data.push(val)
+          }
+
+          const chart = new Chart(ctx, {
+            type: 'bar',
+            data: data,
+            options: {},
+          })
+
+          canvas.style.maxHeight = '80vh'
+          break
+        }
+      }
+
+      const getRandColor = () =>
+        `#${Math.floor(Math.random() * 16777215).toString(16)}`
+
+      start()
+    </script>
+    <script>
+      let lastScrollTop = 0
+      const btn = document.querySelector('.button')
+      document.addEventListener('scroll', () => {
+        let st = window.pageYOffset || document.documentElement.scrollTop
+        if (st > lastScrollTop) {
+          btn.classList.remove('down')
+          btn.classList.add('up')
+        } else {
+          btn.classList.remove('up')
+          btn.classList.add('down')
+        }
+        lastScrollTop = st <= 0 ? 0 : st
+      })
+    </script>
+  </body>
+</html>

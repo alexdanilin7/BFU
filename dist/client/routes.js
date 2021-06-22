@@ -8,6 +8,7 @@ var controller_1 = __importDefault(require("./controller"));
 var router = express_1.Router();
 router.get('/', controller_1.default.applicantsList1);
 router.get('/:id', controller_1.default.applicantsList2);
+router.get('/statistic/applicants/', controller_1.default.applicantsStatistic);
 router.get('/applicants/:id', controller_1.default.applicantsDetail);
 router.get('/:id1/:id2', controller_1.default.applicantsList3);
 router.get('/exam/', controller_1.default.examList1);
