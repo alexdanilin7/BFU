@@ -2,8 +2,16 @@ import json
 
 
 def parse_data(data: str) -> list:
+    """Переформатирует данные
+
+    Args:
+        data (str): данные с сервера
+
+    Returns:
+        list: переформатированные данные
+    """    
+
     data = json.loads(data)
-    print(data)
     arr, idx = [], -1
 
     for el in data:
@@ -24,4 +32,42 @@ def parse_data(data: str) -> list:
 
     return arr
 
+
+def get_statistic(data: list):
+    """Возвращает json для статистики
+
+    Args:
+        data (list): масив, пропущенный через функцию parse_data
+    """              
+
+    return {
+        **_make_statistic(data, 'TrainingLevel', 'Уровень образования'),
+        **_make_statistic(data, 'Osnovanie', 'Финансовая основа'),
+        **_make_statistic(data, 'Form', 'Форма обучения'),
+    }
+
+
+def _make_statistic(data: list, key: str, translated_key: str) -> dict:
+    """Приватная функция, инкапсулирующая бизнес логику
+
+    Args:
+        data (list): масив, пропущенный через функцию parse_data
+        key (str): Ключ в словаре data
+
+    Returns:
+        dict: слова состоящий из ключа translated_key и обаботанных данных
+    """    
+    qs = {}
+    total = 0
+
+    for user in data:
+        try:
+            qs[user[key]] += 1
+        except KeyError:
+            qs[user[key]] = 1
+
+    for key, value in qs.items():
+        total += value
+
+    return {f'{translated_key} ({total})': qs}
 
