@@ -35,8 +35,18 @@
         const container = document.querySelector('#main')
         for (const [key, value] of Object.entries(fetchData)) {
           const canvas = document.createElement('canvas')
+          const details = document.createElement('details')
+          const summary = document.createElement('summary')
           const ctx = canvas.getContext('2d')
-          container.append(canvas)
+
+          summary.innerText = key
+          canvas.style.maxHeight = '80vh'
+          details.classList.add('m-4')
+
+          details.append(summary)
+          details.append(canvas)
+          details.setAttribute('open', true)
+          container.append(details)
 
           const data = {
             labels: [],
@@ -56,26 +66,23 @@
           }
 
           const chart = new Chart(ctx, {
-            type: 'bar',
+            type: 'pie', // doughnut, bar
             data: data,
             options: {},
           })
-
-          canvas.style.maxHeight = '80vh'
-          break
         }
       }
 
       function getRandomColor() {
-        color = 'hsl(' + Math.random() * 360 + ', 100%, 75%)'
-        return color
+        return 'hsl(' + Math.random() * 360 + ', 100%, 75%)'
       }
       start()
     </script>
     <script>
       let lastScrollTop = 0
       const btn = document.querySelector('.button')
-      document.addEventListener('scroll', () => {
+      document.addEventListener('scroll', event => {
+        event.preventDefault()
         let st = window.pageYOffset || document.documentElement.scrollTop
         if (st > lastScrollTop) {
           btn.classList.remove('down')

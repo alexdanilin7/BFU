@@ -131,7 +131,8 @@
 
       let lastScrollTop = 0
       const btn = document.querySelector('.button')
-      document.addEventListener('scroll', () => {
+      document.addEventListener('scroll', event => {
+        event.preventDefault()
         let st = window.pageYOffset || document.documentElement.scrollTop
         if (st > lastScrollTop) {
           btn.classList.remove('down')
