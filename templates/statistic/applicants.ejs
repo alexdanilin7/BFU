@@ -12,9 +12,15 @@
     />
     <link rel="stylesheet" href="/static/css/applicants/list.css" />
     <style>
-      [v-cloak] {
-        display: none;
+      /* details {
+        position: relative;
       }
+
+      table {
+        position: absolute;
+        top: 0;
+        right: 0;
+      } */
     </style>
     <title>Статистика</title>
   </head>
@@ -37,15 +43,55 @@
           const canvas = document.createElement('canvas')
           const details = document.createElement('details')
           const summary = document.createElement('summary')
+
+          const table = document.createElement('table')
+          const thead = document.createElement('thead')
+          const tbody = document.createElement('tbody')
+          const headTr = document.createElement('tr')
+          const headThId = document.createElement('th')
+          const headThKey = document.createElement('th')
+          const headThVal = document.createElement('th')
+
           const ctx = canvas.getContext('2d')
 
           summary.innerText = key
-          canvas.style.maxHeight = '80vh'
-          details.classList.add('m-4')
-
-          details.append(summary)
-          details.append(canvas)
+          canvas.style.maxHeight = '70vh'
+          details.classList.add('row', 'mt-4')
           details.setAttribute('open', true)
+
+          table.classList.add('table', 'table-striped', 'm-2')
+          headThId.innerText = '#'
+          headThId.setAttribute('scope', 'col')
+          headThKey.innerText = key
+          headThKey.setAttribute('scope', 'col')
+          headThVal.innerText = 'Значение'
+          headThVal.setAttribute('scope', 'col')
+
+          let idx = 0
+          for (const [label, val] of Object.entries(value)) {
+            idx++
+            const tr = document.createElement('tr')
+            const thId = document.createElement('th')
+            const tdKey = document.createElement('td')
+            const tdVal = document.createElement('td')
+
+            thId.setAttribute('scope', 'row')
+            thId.innerText = idx
+            tdKey.innerText = label
+            tdVal.innerText = val
+
+            tr.append(thId, tdKey, tdVal)
+
+            tbody.append(tr)
+          }
+
+          thead.append(headThId, headThKey, headThVal)
+          table.append(thead, tbody)
+
+          canvas.classList.add('col')
+          table.classList.add('col')
+
+          details.append(summary, canvas, table)
           container.append(details)
 
           const data = {
@@ -66,7 +112,7 @@
           }
 
           const chart = new Chart(ctx, {
-            type: 'pie', // doughnut, bar
+            type: 'pie',
             data: data,
             options: {},
           })
@@ -76,6 +122,7 @@
       function getRandomColor() {
         return 'hsl(' + Math.random() * 360 + ', 100%, 75%)'
       }
+
       start()
     </script>
     <script>
