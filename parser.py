@@ -9,7 +9,7 @@ def parse_data(data: str) -> list:
 
     Returns:
         list: переформатированные данные
-    """    
+    """
 
     data = json.loads(data)
     arr, idx = [], -1
@@ -20,11 +20,12 @@ def parse_data(data: str) -> list:
             idx += 1
             a['Napravlenie'] = el['Napravlenie'].replace('/', '|')
             a['Osnovanie'] = el['Osnovanie']
-            a['IDS'] = [] if 'IDS' not in  el.keys() else el['IDs']
+            a['IDS'] = [] if 'IDS' not in el.keys() else el['IDs']
             a['TrainingLevel'] = el['TrainingLevel']
             a['Form'] = el['Form']
             a['Plan'] = el['Plan']
-            a['Vstupitelnie'] = [] if 'Vstupitelnie' not in  el.keys() else list(map(lambda el: el.replace('Предмет: ', '').replace(', форма испытания:', ','), a['Vstupitelnie']))
+            a['Vstupitelnie'] = [] if 'Vstupitelnie' not in el.keys() else list(map(
+                lambda el: el.replace('Предмет: ', '').replace(', форма испытания:', ','), a['Vstupitelnie']))
             a['idx'] = idx
             abs.append(a)
 
@@ -38,7 +39,7 @@ def get_statistic(data: list):
 
     Args:
         data (list): масив, пропущенный через функцию parse_data
-    """              
+    """
 
     return {
         **_make_statistic(data, 'TrainingLevel', 'Уровень образования'),
@@ -56,9 +57,8 @@ def _make_statistic(data: list, key: str, translated_key: str) -> dict:
 
     Returns:
         dict: слова состоящий из ключа translated_key и обаботанных данных
-    """    
+    """
     qs = {}
-    total = 0
 
     for user in data:
         try:
@@ -66,8 +66,4 @@ def _make_statistic(data: list, key: str, translated_key: str) -> dict:
         except KeyError:
             qs[user[key]] = 1
 
-    for key, value in qs.items():
-        total += value
-
-    return {f'{translated_key} ({total})': qs}
-
+    return {{translated_key}: qs}
