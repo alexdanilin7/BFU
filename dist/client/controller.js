@@ -20,6 +20,9 @@ var ClientController = /** @class */ (function () {
     ClientController.prototype.applicantsStatistic = function (req, res) {
         res.render('statistic/applicants');
     };
+    ClientController.prototype.applicantsAnalitics = function (req, res) {
+        res.render('statistic/applicants_analitisc');
+    };
     ClientController.prototype.examList1 = function (req, res) {
         res.render('exam/list1');
     };

@@ -25,6 +25,10 @@ class ClientController {
     res.render('statistic/applicants')
   }
 
+  applicantsAnalitics(req: Request, res: Response) {
+    res.render('statistic/applicants_analitisc')
+  }
+
   examList1(req: Request, res: Response) {
     res.render('exam/list1')
   }

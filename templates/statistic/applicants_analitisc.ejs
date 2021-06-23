@@ -11,7 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="/static/css/applicants/list.css" />
-    <title>Статистика</title>
+    <title>Аналитика</title>
   </head>
   <body id="start">
     <%-include('../header.ejs') %>
@@ -25,10 +25,14 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js@3.3.2/dist/chart.min.js"></script>
     <script>
       async function start() {
-        const resp = await fetch('/static/applicants_statistic.json')
+        let resp = await fetch('/static/applicants_statistic.json')
         const fetchData = await resp.json()
+        resp = await fetch('/static/applicants_statistic_old.json')
+        const fetchDataOld = await resp.json()
         const container = document.querySelector('#main')
-        for (const [key, value] of Object.entries(fetchData)) {
+        for (let i = 0; i < Object.entries(fetchData).length; i++) {
+          const [key, value] = Object.entries(fetchData)[i]
+          const [keyOld, valueOld] = Object.entries(fetchDataOld)[i]
           const canvas = document.createElement('canvas')
           const details = document.createElement('details')
           const summary = document.createElement('summary')
@@ -91,17 +95,30 @@
                 data: [],
                 backgroundColor: [],
               },
+              {
+                label: keyOld,
+                data: [],
+                backgroundColor: [],
+              },
             ],
           }
 
-          for (const [label, val] of Object.entries(value)) {
+          const color = getRandomColor()
+          const colorOld = getRandomColor()
+
+          for (let j = 0; j < Object.entries(value).length; j++) {
+            const [label, val] = Object.entries(value)[j]
+            const [labelOld, valOld] = Object.entries(valueOld)[j]
             data.labels.push(label)
-            data.datasets[0].backgroundColor.push(getRandomColor())
+
+            data.datasets[0].backgroundColor.unshift(color)
             data.datasets[0].data.push(val)
+            data.datasets[1].backgroundColor.push(colorOld)
+            data.datasets[1].data.push(valOld)
           }
 
           const chart = new Chart(ctx, {
-            type: 'pie',
+            type: 'bar',
             data: data,
             options: {},
           })
