@@ -20,7 +20,7 @@
       >
         <li>
           <div class="btn-group">
-            <a href="/" class="btn btn-dark">
+            <a href="/" class="btn btn-dark nav-link text-secondary">
               Пофамильные списки лиц, подавших документы в БФУ им. И. Канта
             </a>
             <button
@@ -55,26 +55,17 @@
 </header>
 
 <script>
-  if (document.location.pathname.startsWith('/statistic/applicants/')) {
-    document
-      .querySelector('.nav-link[href="/statistic/applicants/"]')
-      .classList.remove('text-secondary')
-    document.querySelector(
-      '.nav-link[href="/statistic/applicants/"]'
-    ).style.color = 'white'
-  } else if (document.location.pathname.startsWith('/analitics/applicants/')) {
-    document
-      .querySelector('.nav-link[href="/analitics/applicants/"]')
-      .classList.remove('text-secondary')
-    document.querySelector(
-      '.nav-link[href="/analitics/applicants/"]'
-    ).style.color = 'white'
-  } else {
-    document
-      .querySelectorAll('.nav-link[href="/"]')
-      .forEach(el => el.classList.remove('text-secondary'))
-    document
-      .querySelectorAll('.nav-link[href="/"]')
-      .forEach(el => (el.style.color = 'white'))
+  function styleNavbar(...array) {
+    for (const el of array) {
+      if (document.location.pathname.startsWith(el)) {
+        document
+          .querySelector(`.nav-link[href="${el}"]`)
+          .classList.remove('text-secondary')
+        document.querySelector(`.nav-link[href="${el}"]`).style.color = 'white'
+        break
+      }
+    }
   }
+
+  styleNavbar('/statistic/applicants/', '/analitics/applicants/', '/')
 </script>
