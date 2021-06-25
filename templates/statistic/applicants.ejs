@@ -11,44 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="/static/css/applicants/list.css" />
-    <style>
-      .inline {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-      }
-
-      canvas {
-        max-width: 60%;
-        max-height: 70vh;
-      }
-
-      table {
-        height: min-content;
-        align-self: center;
-        position: relative;
-        right: 40px;
-      }
-
-      @media screen and (max-width: 1200px) {
-        table {
-          right: 0;
-          margin-left: 16px;
-        }
-      }
-
-      @media screen and (max-width: 780px) {
-        .inline {
-          display: block;
-        }
-
-        canvas {
-          max-width: 100%;
-          max-height: 70vh;
-          margin-bottom: 18px;
-        }
-      }
-    </style>
+    <link rel="stylesheet" href="/static/css/applicants/inline.css" />
   </head>
   <body id="start">
     <%-include('../header.ejs') %>
@@ -85,7 +48,6 @@
           details.classList.add('mt-4')
           details.setAttribute('open', true)
 
-          // canvas.classList.add('me-4')
           wrapper.classList.add('inline')
 
           table.classList.add('table', 'table-striped')

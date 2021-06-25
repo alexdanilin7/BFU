@@ -11,6 +11,19 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="/static/css/applicants/list.css" />
+    <link rel="stylesheet" href="/static/css/applicants/inline.css" />
+    <style>
+      table {
+        right: -35px;
+      }
+
+      @media screen and (max-width: 1200px) {
+        table {
+          margin-left: 0;
+          right: 0;
+        }
+      }
+    </style>
     <title>Аналитика</title>
   </head>
   <body id="start">
@@ -36,6 +49,7 @@
           const canvas = document.createElement('canvas')
           const details = document.createElement('details')
           const summary = document.createElement('summary')
+          const wrapper = document.createElement('div')
 
           const table = document.createElement('table')
           const thead = document.createElement('thead')
@@ -50,10 +64,11 @@
 
           summary.innerText = key
           canvas.style.maxHeight = '70vh'
-          details.classList.add('row', 'mt-4')
+          details.classList.add('mt-4')
           details.setAttribute('open', true)
+          wrapper.classList.add('inline')
 
-          table.classList.add('table', 'table-striped', 'm-2')
+          table.classList.add('table', 'table-striped')
           headThId.innerText = '#'
           headThId.setAttribute('scope', 'col')
           headThKey.innerText = key
@@ -73,7 +88,7 @@
             const tdValOld = document.createElement('td')
 
             thId.setAttribute('scope', 'row')
-            thId.innerText = idx
+            thId.innerText = idx + 1
             tdKey.innerText = label
             tdVal.innerText = val
             tdValOld.innerText = valOld
@@ -86,10 +101,8 @@
           thead.append(headThId, headThKey, headThValOld, headThVal)
           table.append(thead, tbody)
 
-          canvas.classList.add('col')
-          table.classList.add('col')
-
-          details.append(summary, canvas, table)
+          wrapper.append(canvas, table)
+          details.append(summary, wrapper)
           container.append(details)
 
           const data = {
