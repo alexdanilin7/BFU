@@ -11,7 +11,44 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="/static/css/applicants/list.css" />
-    <title>Статистика</title>
+    <style>
+      .inline {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+
+      canvas {
+        max-width: 60%;
+        max-height: 70vh;
+      }
+
+      table {
+        height: min-content;
+        align-self: center;
+        position: relative;
+        right: 40px;
+      }
+
+      @media screen and (max-width: 1200px) {
+        table {
+          right: 0;
+          margin-left: 16px;
+        }
+      }
+
+      @media screen and (max-width: 780px) {
+        .inline {
+          display: block;
+        }
+
+        canvas {
+          max-width: 100%;
+          max-height: 70vh;
+          margin-bottom: 18px;
+        }
+      }
+    </style>
   </head>
   <body id="start">
     <%-include('../header.ejs') %>
@@ -32,6 +69,7 @@
           const canvas = document.createElement('canvas')
           const details = document.createElement('details')
           const summary = document.createElement('summary')
+          const wrapper = document.createElement('div')
 
           const table = document.createElement('table')
           const thead = document.createElement('thead')
@@ -44,11 +82,13 @@
           const ctx = canvas.getContext('2d')
 
           summary.innerText = key
-          canvas.style.maxHeight = '70vh'
-          details.classList.add('row', 'mt-4')
+          details.classList.add('mt-4')
           details.setAttribute('open', true)
 
-          table.classList.add('table', 'table-striped', 'm-2')
+          // canvas.classList.add('me-4')
+          wrapper.classList.add('inline')
+
+          table.classList.add('table', 'table-striped')
           headThId.innerText = '#'
           headThId.setAttribute('scope', 'col')
           headThKey.innerText = key
@@ -77,10 +117,8 @@
           thead.append(headThId, headThKey, headThVal)
           table.append(thead, tbody)
 
-          canvas.classList.add('col')
-          table.classList.add('col')
-
-          details.append(summary, canvas, table)
+          wrapper.append(canvas, table)
+          details.append(summary, wrapper)
           container.append(details)
 
           const data = {
@@ -92,6 +130,7 @@
                 backgroundColor: [],
               },
             ],
+            options: {},
           }
 
           for (const [label, val] of Object.entries(value)) {

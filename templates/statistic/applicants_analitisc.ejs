@@ -44,6 +44,7 @@
           const headThId = document.createElement('th')
           const headThKey = document.createElement('th')
           const headThVal = document.createElement('th')
+          const headThValOld = document.createElement('th')
 
           const ctx = canvas.getContext('2d')
 
@@ -57,28 +58,32 @@
           headThId.setAttribute('scope', 'col')
           headThKey.innerText = key
           headThKey.setAttribute('scope', 'col')
-          headThVal.innerText = 'Значение'
+          headThVal.innerText = 'Значение за 2021'
           headThVal.setAttribute('scope', 'col')
+          headThValOld.innerText = 'Значение за 2020'
+          headThValOld.setAttribute('scope', 'col')
 
-          let idx = 0
-          for (const [label, val] of Object.entries(value)) {
-            idx++
+          for (let idx = 0; idx < Object.entries(value).length; idx++) {
+            const [label, val] = Object.entries(value)[idx]
+            const [_, valOld] = Object.entries(valueOld)[idx]
             const tr = document.createElement('tr')
             const thId = document.createElement('th')
             const tdKey = document.createElement('td')
             const tdVal = document.createElement('td')
+            const tdValOld = document.createElement('td')
 
             thId.setAttribute('scope', 'row')
             thId.innerText = idx
             tdKey.innerText = label
             tdVal.innerText = val
+            tdValOld.innerText = valOld
 
-            tr.append(thId, tdKey, tdVal)
+            tr.append(thId, tdKey, tdValOld, tdVal)
 
             tbody.append(tr)
           }
 
-          thead.append(headThId, headThKey, headThVal)
+          thead.append(headThId, headThKey, headThValOld, headThVal)
           table.append(thead, tbody)
 
           canvas.classList.add('col')
@@ -91,12 +96,12 @@
             labels: [],
             datasets: [
               {
-                label: key,
+                label: key + ' за 2021',
                 data: [],
                 backgroundColor: [],
               },
               {
-                label: keyOld,
+                label: keyOld + ' за 2020',
                 data: [],
                 backgroundColor: [],
               },
