@@ -106,7 +106,8 @@
 
             if (this.napravlenieForm) {
               this.list = this.list.filter(el => {
-                console.log(el.indexOf(this.napravlenieForm) + 1)
+                el = el.toLowerCase()
+                this.napravlenieForm = this.napravlenieForm.toLowerCase()
                 return el.indexOf(this.napravlenieForm) + 1
               })
             }
