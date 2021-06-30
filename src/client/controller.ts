@@ -41,12 +41,40 @@ class ClientController {
     res.render('exam/list3')
   }
 
-  ratingList1(req: Request, res: Response) {
-    res.render('rating/list1')
+  ratingSpoList1(req: Request, res: Response) {
+    res.render('rating/spo/list1')
   }
 
-  ratingList2(req: Request, res: Response) {
-    res.render('rating/list2')
+  ratingSpoList2(req: Request, res: Response) {
+    const { id } = req.params
+    res.render('rating/spo/list2', { id })
+  }
+
+  ratingBakList1(req: Request, res: Response) {
+    res.render('rating/bak/list1')
+  }
+
+  ratingBakList2(req: Request, res: Response) {
+    const { id } = req.params
+    res.render('rating/bak/list2', { id })
+  }
+
+  ratingMagList1(req: Request, res: Response) {
+    res.render('rating/mag/list1')
+  }
+
+  ratingMagList2(req: Request, res: Response) {
+    const { id } = req.params
+    res.render('rating/mag/list2', { id })
+  }
+
+  ratingSpecList1(req: Request, res: Response) {
+    res.render('rating/spec/list1')
+  }
+
+  ratingSpecList2(req: Request, res: Response) {
+    const { id } = req.params
+    res.render('rating/spec/list2', { id })
   }
 }
 

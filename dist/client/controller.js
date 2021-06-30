@@ -32,11 +32,33 @@ var ClientController = /** @class */ (function () {
     ClientController.prototype.examList3 = function (req, res) {
         res.render('exam/list3');
     };
-    ClientController.prototype.ratingList1 = function (req, res) {
-        res.render('rating/list1');
+    ClientController.prototype.ratingSpoList1 = function (req, res) {
+        res.render('rating/spo/list1');
     };
-    ClientController.prototype.ratingList2 = function (req, res) {
-        res.render('rating/list2');
+    ClientController.prototype.ratingSpoList2 = function (req, res) {
+        var id = req.params.id;
+        res.render('rating/spo/list2', { id: id });
+    };
+    ClientController.prototype.ratingBakList1 = function (req, res) {
+        res.render('rating/bak/list1');
+    };
+    ClientController.prototype.ratingBakList2 = function (req, res) {
+        var id = req.params.id;
+        res.render('rating/bak/list2', { id: id });
+    };
+    ClientController.prototype.ratingMagList1 = function (req, res) {
+        res.render('rating/mag/list1');
+    };
+    ClientController.prototype.ratingMagList2 = function (req, res) {
+        var id = req.params.id;
+        res.render('rating/mag/list2', { id: id });
+    };
+    ClientController.prototype.ratingSpecList1 = function (req, res) {
+        res.render('rating/spec/list1');
+    };
+    ClientController.prototype.ratingSpecList2 = function (req, res) {
+        var id = req.params.id;
+        res.render('rating/spec/list2', { id: id });
     };
     return ClientController;
 }());

@@ -49,6 +49,52 @@
             </ul>
           </div>
         </li>
+        <li>
+          <div class="dropdown">
+            <button
+              class="btn btn-dark dropdown-toggle bg-dark text-secondary"
+              type="button"
+              id="rating"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Рейтинг
+            </button>
+            <ul
+              class="dropdown-menu dropdown-menu-dark bg-dark"
+              aria-labelledby="rating"
+            >
+              <li>
+                <a
+                  class="dropdown-item nav-link text-secondary"
+                  href="/rating/spo/"
+                  >СПО</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item nav-link text-secondary"
+                  href="/rating/bak/"
+                  >Бакалавриат</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item nav-link text-secondary"
+                  href="/rating/spec/"
+                  >Специалитет</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item nav-link text-secondary"
+                  href="/rating/mag/"
+                  >Магистратура</a
+                >
+              </li>
+            </ul>
+          </div>
+        </li>
       </ul>
     </div>
   </div>
@@ -67,5 +113,13 @@
     }
   }
 
-  styleNavbar('/statistic/applicants/', '/analitics/applicants/', '/')
+  styleNavbar(
+    '/statistic/applicants/',
+    '/analitics/applicants/',
+    '/rating/spo/',
+    '/rating/bak/',
+    '/rating/mag/',
+    '/rating/spec/',
+    '/'
+  )
 </script>

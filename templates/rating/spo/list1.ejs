@@ -22,10 +22,10 @@
         display: none;
       }
     </style>
-    <title>Информация о приёме</title>
+    <title>Статистика</title>
   </head>
   <body id="start">
-    <%-include('../header.ejs') %>
+    <%-include('../../header.ejs') %>
     <div class="container">
       <div id="app" v-cloak>
         <input
@@ -52,7 +52,9 @@
             <tr v-for="(el, idx) of list">
               <th scope="row">{{ idx + 1 }}</th>
               <td>
-                <a :href="id + '/' + el">{{ el }}</a>
+                <a :href="'/rating/spo/' + el.Napravlenie">{{
+                  el.Napravlenie
+                }}</a>
               </td>
             </tr>
           </tbody>
@@ -60,7 +62,6 @@
       </div>
     </div>
     <a href="#start" class="button btn btn-dark btn-lg">&uArr;</a>
-    <span id="id" style="visibility: hidden"><%= id %></span>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
@@ -74,64 +75,39 @@
         data: {
           list: [],
           napravlenieForm: '',
-          id: '',
         },
 
         async mounted() {
-          const id = document.querySelector('#id').innerHTML
-          this.id = id
-          document.querySelector('#id').remove()
-          const resp = await fetch(
-            window.location.origin + '/api/applicants/get/'
-          )
+          const resp = await fetch(location.origin + '/static/rating_spo.json')
           const data = await resp.json()
-          const s = new Set()
-          for (const { TrainingLevel, Napravlenie } of data) {
-            if (TrainingLevel === id) {
-              s.add(Napravlenie)
-            }
-          }
-
-          this.list = Array(...s).sort()
+          this.list = data
         },
 
         methods: {
           async clickHandler() {
             const resp = await fetch(
-              window.location.origin + '/api/applicants/get/'
+              location.origin + '/static/rating_spo.json'
             )
             const data = await resp.json()
-            const s = new Set()
-            for (const { TrainingLevel, Napravlenie } of data) {
-              if (TrainingLevel === this.id) {
-                s.add(Napravlenie)
-              }
-            }
-
-            this.list = Array(...s).sort()
+            this.list = data
 
             if (this.napravlenieForm) {
               this.list = this.list.filter(el => {
-                el = el.toLowerCase()
                 this.napravlenieForm = this.napravlenieForm.toLowerCase()
-                return el.indexOf(this.napravlenieForm) + 1
+                return (
+                  el.Napravlenie.toLowerCase().indexOf(this.napravlenieForm) + 1
+                )
               })
             }
           },
 
           async resetFilters() {
             const resp = await fetch(
-              window.location.origin + '/api/applicants/get/'
+              location.origin + '/static/rating_spo.json'
             )
             const data = await resp.json()
-            const s = new Set()
-            for (const { TrainingLevel, Napravlenie } of data) {
-              if (TrainingLevel === this.id) {
-                s.add(Napravlenie)
-              }
-            }
-
-            this.list = Array(...s).sort()
+            this.list = data
+            this.napravlenieForm = ''
           },
         },
       })

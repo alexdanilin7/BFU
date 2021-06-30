@@ -1,0 +1,53 @@
+[
+  {
+    "Napravlenie": "Сварщик",
+    "Form": "Очная",
+    "NumMest": 15,
+    "EnrolledAbits": [
+      {
+        "FIO": "Иванов Иван Иванович",
+        "Document": "оригинал",
+        "hasID": true,
+        "Attestat": 4.9,
+        "Finansirovanie": "Бюджет"
+      },
+      {
+        "FIO": "Иванов Иван Иванович",
+        "Document": "оригинал",
+        "hasID": true,
+        "Attestat": 4.8,
+        "Finansirovanie": "Платное"
+      },
+      {
+        "FIO": "Иванов Иван Иванович",
+        "Document": "оригинал",
+        "hasID": false,
+        "Attestat": 4,
+        "Finansirovanie": "Бюджет"
+      }
+    ],
+    "Abits": [
+      {
+        "FIO": "Иванов Иван Иванович",
+        "Document": "оригинал",
+        "hasID": true,
+        "Attestat": 4.9,
+        "Finansirovanie": "Бюджет"
+      },
+      {
+        "FIO": "Иванов Иван Иванович1",
+        "Document": "оригинал",
+        "hasID": true,
+        "Attestat": 4.8,
+        "Finansirovanie": "Платное"
+      },
+      {
+        "FIO": "Иванов Иван Иванович2",
+        "Document": "оригинал",
+        "hasID": false,
+        "Attestat": 4,
+        "Finansirovanie": "Бюджет"
+      }
+    ]
+  }
+]

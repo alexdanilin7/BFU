@@ -5,7 +5,6 @@ import base64 from 'base-64'
 import ApplicantsRouter from './applicants/routes'
 import ClientRouter from './client/routes'
 import ExamRouter from './exam/routes'
-import RatingRouter from './rating/routes'
 import { writeFileSync } from 'fs'
 import { parseApplicantsList, parseRatingList, parseExamList } from './service'
 require('dotenv').config()
@@ -24,7 +23,6 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
 app.use('/api/applicants', ApplicantsRouter)
 app.use('/api/exam', ExamRouter)
-app.use('/api/rating', RatingRouter)
 app.use('/', ClientRouter)
 
 app.set('view engine', 'ejs')

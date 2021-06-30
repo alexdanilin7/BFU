@@ -1,0 +1,153 @@
+[
+  {
+    "Napravlenie": "Высший матан",
+    "Form": "Очная",
+    "NumMest": 8,
+    "NumParava": 2,
+    "NumCelevoy": 1,
+    "EnrolledAbits": [
+      {
+        "FIO": "Иванов Иван Иванович",
+        "Snils": "123123",
+        "CelevoyPriem": "Особое право",
+        "Finansirovanie": "Бюджет",
+        "Vstuplenie": [
+          {
+            "name": "Матан",
+            "value": 60
+          },
+          {
+            "name": "Русский",
+            "value": 54
+          },
+          {
+            "name": "Общество",
+            "value": 32
+          }
+        ],
+        "IDs": {
+          "total": 2,
+          "detail": [
+            {
+              "name": "ГТО",
+              "value": 2
+            },
+            {
+              "name": "Волонтёрство",
+              "value": 0
+            }
+          ]
+        },
+        "Soglasie": true,
+        "KonkursTotal": 148
+      },
+      {
+        "FIO": "Иванов Иван Иванович",
+        "Snils": "123123",
+        "CelevoyPriem": "",
+        "Finansirovanie": "Платное",
+        "Vstuplenie": [
+          {
+            "name": "Матан",
+            "value": 60
+          },
+          {
+            "name": "Русский",
+            "value": 54
+          },
+          {
+            "name": "Общество",
+            "value": 32
+          }
+        ],
+        "IDs": {
+          "total": 2,
+          "detail": [
+            {
+              "name": "ГТО",
+              "value": 2
+            },
+            {
+              "name": "Волонтёрство",
+              "value": 5
+            }
+          ]
+        },
+        "Soglasie": true,
+        "KonkursTotal": 148
+      }
+    ],
+    "Abits": [
+      {
+        "FIO": "Петров Петр Петрович",
+        "Snils": "456456",
+        "CelevoyPriem": "",
+        "Finansirovanie": "Платное",
+        "Vstuplenie": [
+          {
+            "name": "Матан",
+            "value": 70
+          },
+          {
+            "name": "Русский",
+            "value": 20
+          },
+          {
+            "name": "Общество",
+            "value": 58
+          }
+        ],
+        "IDs": {
+          "total": 2,
+          "detail": [
+            {
+              "name": "ГТО",
+              "value": 2
+            },
+            {
+              "name": "Волонтёрство",
+              "value": 1
+            }
+          ]
+        },
+        "Soglasie": false,
+        "KonkursTotal": 151
+      },
+      {
+        "FIO": "Петров Петр Петрович",
+        "Snils": "456456",
+        "CelevoyPriem": "",
+        "Finansirovanie": "Бюджет",
+        "Vstuplenie": [
+          {
+            "name": "Матан",
+            "value": 70
+          },
+          {
+            "name": "Русский",
+            "value": 20
+          },
+          {
+            "name": "Общество",
+            "value": 58
+          }
+        ],
+        "IDs": {
+          "total": 2,
+          "detail": [
+            {
+              "name": "ГТО",
+              "value": 0
+            },
+            {
+              "name": "Волонтёрство",
+              "value": 1
+            }
+          ]
+        },
+        "Soglasie": false,
+        "KonkursTotal": 151
+      }
+    ]
+  }
+]
