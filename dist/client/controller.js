@@ -60,6 +60,20 @@ var ClientController = /** @class */ (function () {
         var id = req.params.id;
         res.render('rating/spec/list2', { id: id });
     };
+    ClientController.prototype.ratingOrdList1 = function (req, res) {
+        res.render('rating/ord/list1');
+    };
+    ClientController.prototype.ratingOrdList2 = function (req, res) {
+        var id = req.params.id;
+        res.render('rating/ord/list2', { id: id });
+    };
+    ClientController.prototype.ratingApsList1 = function (req, res) {
+        res.render('rating/asp/list1');
+    };
+    ClientController.prototype.ratingApsList2 = function (req, res) {
+        var id = req.params.id;
+        res.render('rating/asp/list2', { id: id });
+    };
     return ClientController;
 }());
 exports.default = new ClientController();

@@ -22,7 +22,7 @@
         display: none;
       }
     </style>
-    <title>Рейтинг - Бакалвриат</title>
+    <title>Рейтинг - Аспирантура</title>
   </head>
   <body id="start">
     <%-include('../../header.ejs') %>
@@ -30,7 +30,7 @@
       <div id="app" v-cloak>
         <div class="mt-5">
           <div class="m-2 my-4">
-            <h4>Уровень образования - Бакалвриат</h4>
+            <h4>Уровень образования - Аспирантура</h4>
             <h4>Направление/Специальность - {{ list.Napravlenie }}</h4>
             <h4>Форма обучения - {{ list.Form }}</h4>
             <h4>Источник финансирования - Бюджет</h4>
@@ -53,11 +53,12 @@
               <thead>
                 <tr>
                   <th scope="col">#</th>
-                  <th scope="col">Снилс</th>
+                  <th scope="col">ФИО</th>
                   <th scope="col">Особое право / ЦП</th>
                   <th scope="col">Вступительные экзамены</th>
                   <th scope="col">Индивидуальные достижения</th>
                   <th scope="col">Сумма баллов за ИД</th>
+                  <th scope="col">Средний балл диплома</th>
                   <th scope="col">Согласие на зачисление</th>
                   <th scope="col">Сумма конкурсных баллов</th>
                 </tr>
@@ -65,23 +66,10 @@
               <tbody>
                 <tr v-for="(el, idx) of budget.EnrolledAbits">
                   <th scope="row">{{ idx + 1 }}</th>
-                  <td>{{ el.Snils }}</td>
+                  <td>{{ el.FIO }}</td>
                   <td>{{ el.CelevoyPriem }}</td>
                   <td>
-                    <table class="table table-light">
-                      <thead>
-                        <tr>
-                          <th scope="col">Предмет</th>
-                          <th scope="col">Значение</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr v-for="v of el.Vstuplenie">
-                          <td>{{ v.name }}</td>
-                          <td>{{ v.value }}</td>
-                        </tr>
-                      </tbody>
-                    </table>
+                    {{ el.Vstuplenie }}
                   </td>
                   <td>
                     <table class="table table-light">
@@ -100,6 +88,7 @@
                     </table>
                   </td>
                   <td>{{ el.IDs.total }}</td>
+                  <td>{{ el.Attestat }}</td>
                   <td v-if="el.Soglasie">Да</td>
                   <td v-else>Нет</td>
                   <td>{{ el.KonkursTotal }}</td>
@@ -116,11 +105,12 @@
               <thead>
                 <tr>
                   <th scope="col">#</th>
-                  <th scope="col">Снилс</th>
+                  <th scope="col">ФИО</th>
                   <th scope="col">Особое право / ЦП</th>
                   <th scope="col">Вступительные экзамены</th>
                   <th scope="col">Индивидуальные достижения</th>
                   <th scope="col">Сумма баллов за ИД</th>
+                  <th scope="col">Средний балл диплома</th>
                   <th scope="col">Согласие на зачисление</th>
                   <th scope="col">Сумма конкурсных баллов</th>
                 </tr>
@@ -128,23 +118,10 @@
               <tbody>
                 <tr v-for="(el, idx) of budget.Abits">
                   <th scope="row">{{ idx + 1 }}</th>
-                  <td>{{ el.Snils }}</td>
+                  <td>{{ el.FIO }}</td>
                   <td>{{ el.CelevoyPriem }}</td>
                   <td>
-                    <table class="table table-light">
-                      <thead>
-                        <tr>
-                          <th scope="col">Предмет</th>
-                          <th scope="col">Значение</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr v-for="v of el.Vstuplenie">
-                          <td>{{ v.name }}</td>
-                          <td>{{ v.value }}</td>
-                        </tr>
-                      </tbody>
-                    </table>
+                    {{ el.Vstuplenie }}
                   </td>
                   <td>
                     <table class="table table-light">
@@ -163,6 +140,7 @@
                     </table>
                   </td>
                   <td>{{ el.IDs.total }}</td>
+                  <td>{{ el.Attestat }}</td>
                   <td v-if="el.Soglasie">Да</td>
                   <td v-else>Нет</td>
                   <td>{{ el.KonkursTotal }}</td>
@@ -188,11 +166,12 @@
               <thead>
                 <tr>
                   <th scope="col">#</th>
-                  <th scope="col">Снилс</th>
+                  <th scope="col">ФИО</th>
                   <th scope="col">Особое право / ЦП</th>
                   <th scope="col">Вступительные экзамены</th>
                   <th scope="col">Индивидуальные достижения</th>
                   <th scope="col">Сумма баллов за ИД</th>
+                  <th scope="col">Средний балл диплома</th>
                   <th scope="col">Согласие на зачисление</th>
                   <th scope="col">Сумма конкурсных баллов</th>
                 </tr>
@@ -200,23 +179,10 @@
               <tbody>
                 <tr v-for="(el, idx) of platnik.EnrolledAbits">
                   <th scope="row">{{ idx + 1 }}</th>
-                  <td>{{ el.Snils }}</td>
+                  <td>{{ el.FIO }}</td>
                   <td>{{ el.CelevoyPriem }}</td>
                   <td>
-                    <table class="table table-light">
-                      <thead>
-                        <tr>
-                          <th scope="col">Предмет</th>
-                          <th scope="col">Значение</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr v-for="v of el.Vstuplenie">
-                          <td>{{ v.name }}</td>
-                          <td>{{ v.value }}</td>
-                        </tr>
-                      </tbody>
-                    </table>
+                    {{ el.Vstuplenie }}
                   </td>
                   <td>
                     <table class="table table-light">
@@ -235,6 +201,7 @@
                     </table>
                   </td>
                   <td>{{ el.IDs.total }}</td>
+                  <td>{{ el.Attestat }}</td>
                   <td v-if="el.Soglasie">Да</td>
                   <td v-else>Нет</td>
                   <td>{{ el.KonkursTotal }}</td>
@@ -251,11 +218,12 @@
               <thead>
                 <tr>
                   <th scope="col">#</th>
-                  <th scope="col">Снилс</th>
+                  <th scope="col">ФИО</th>
                   <th scope="col">Особое право / ЦП</th>
                   <th scope="col">Вступительные экзамены</th>
                   <th scope="col">Индивидуальные достижения</th>
                   <th scope="col">Сумма баллов за ИД</th>
+                  <th scope="col">Средний балл диплома</th>
                   <th scope="col">Согласие на зачисление</th>
                   <th scope="col">Сумма конкурсных баллов</th>
                 </tr>
@@ -263,23 +231,10 @@
               <tbody>
                 <tr v-for="(el, idx) of platnik.Abits">
                   <th scope="row">{{ idx + 1 }}</th>
-                  <td>{{ el.Snils }}</td>
+                  <td>{{ el.FIO }}</td>
                   <td>{{ el.CelevoyPriem }}</td>
                   <td>
-                    <table class="table table-light">
-                      <thead>
-                        <tr>
-                          <th scope="col">Предмет</th>
-                          <th scope="col">Значение</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr v-for="v of el.Vstuplenie">
-                          <td>{{ v.name }}</td>
-                          <td>{{ v.value }}</td>
-                        </tr>
-                      </tbody>
-                    </table>
+                    {{ el.Vstuplenie }}
                   </td>
                   <td>
                     <table class="table table-light">
@@ -298,6 +253,7 @@
                     </table>
                   </td>
                   <td>{{ el.IDs.total }}</td>
+                  <td>{{ el.Attestat }}</td>
                   <td v-if="el.Soglasie">Да</td>
                   <td v-else>Нет</td>
                   <td>{{ el.KonkursTotal }}</td>
@@ -331,7 +287,7 @@
           const id = document.querySelector('#id').innerHTML
           this.id = id
           document.querySelector('#id').remove()
-          const resp = await fetch(location.origin + '/static/rating_bak.json')
+          const resp = await fetch(location.origin + '/static/rating_asp.json')
           const data = await resp.json()
           this.list = data.find(el => el.Napravlenie === id)
 

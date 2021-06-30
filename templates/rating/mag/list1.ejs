@@ -22,7 +22,7 @@
         display: none;
       }
     </style>
-    <title>Статистика</title>
+    <title>Рейтинг</title>
   </head>
   <body id="start">
     <%-include('../../header.ejs') %>
@@ -78,7 +78,7 @@
         },
 
         async mounted() {
-          const resp = await fetch(location.origin + '/static/rating_bak.json')
+          const resp = await fetch(location.origin + '/static/rating_mag.json')
           const data = await resp.json()
           this.list = data
         },
@@ -86,7 +86,7 @@
         methods: {
           async clickHandler() {
             const resp = await fetch(
-              location.origin + '/static/rating_bak.json'
+              location.origin + '/static/rating_mag.json'
             )
             const data = await resp.json()
             this.list = data

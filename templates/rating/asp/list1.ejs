@@ -52,7 +52,7 @@
             <tr v-for="(el, idx) of list">
               <th scope="row">{{ idx + 1 }}</th>
               <td>
-                <a :href="'/rating/spo/' + el.Napravlenie">{{
+                <a :href="'/rating/ord/' + el.Napravlenie">{{
                   el.Napravlenie
                 }}</a>
               </td>
@@ -78,7 +78,7 @@
         },
 
         async mounted() {
-          const resp = await fetch(location.origin + '/static/rating_spo.json')
+          const resp = await fetch(location.origin + '/static/rating_asp.json')
           const data = await resp.json()
           this.list = data
         },
@@ -86,7 +86,7 @@
         methods: {
           async clickHandler() {
             const resp = await fetch(
-              location.origin + '/static/rating_spo.json'
+              location.origin + '/static/rating_asp.json'
             )
             const data = await resp.json()
             this.list = data
@@ -103,7 +103,7 @@
 
           async resetFilters() {
             const resp = await fetch(
-              location.origin + '/static/rating_spo.json'
+              location.origin + '/static/rating_asp.json'
             )
             const data = await resp.json()
             this.list = data

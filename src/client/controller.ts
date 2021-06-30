@@ -76,6 +76,24 @@ class ClientController {
     const { id } = req.params
     res.render('rating/spec/list2', { id })
   }
+
+  ratingOrdList1(req: Request, res: Response) {
+    res.render('rating/ord/list1')
+  }
+
+  ratingOrdList2(req: Request, res: Response) {
+    const { id } = req.params
+    res.render('rating/ord/list2', { id })
+  }
+
+  ratingApsList1(req: Request, res: Response) {
+    res.render('rating/asp/list1')
+  }
+
+  ratingApsList2(req: Request, res: Response) {
+    const { id } = req.params
+    res.render('rating/asp/list2', { id })
+  }
 }
 
 export default new ClientController()
