@@ -54,7 +54,7 @@
                     </tr>
                   </thead>
                   <tbody>
-                    <tr v-for="(el, idx) of budget.EnrolledAbits">
+                    <tr v-for="(el, idx) of budget.EnrolledAbits" :class="el.hasID ? 'bg-success text-white' : ''">
                       <th scope="row">{{ idx + 1 }}</th>
                       <td>{{ el.FIO }}</td>
                       <td>{{ el.Document }}</td>
@@ -83,7 +83,7 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <tr v-for="(el, idx) of budget.Abits">
+                  <tr v-for="(el, idx) of budget.Abits" :class="el.hasID ? 'bg-success text-white' : ''">
                     <th scope="row">{{ idx + 1 }}</th>
                     <td>{{ el.FIO }}</td>
                     <td>{{ el.Document }}</td>
@@ -122,7 +122,7 @@
                     </tr>
                   </thead>
                   <tbody>
-                    <tr v-for="(el, idx) of platnik.EnrolledAbits">
+                    <tr v-for="(el, idx) of platnik.EnrolledAbits" :class="el.hasID ? 'bg-success text-white' : ''">
                       <th scope="row">{{ idx + 1 }}</th>
                       <td>{{ el.FIO }}</td>
                       <td>{{ el.Document }}</td>
@@ -150,7 +150,7 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <tr v-for="(el, idx) of platnik.Abits">
+                  <tr v-for="(el, idx) of platnik.Abits" :class="el.hasID ? 'bg-success text-white' : ''">
                     <th scope="row">{{ idx + 1 }}</th>
                     <td>{{ el.FIO }}</td>
                     <td>{{ el.Document }}</td>
