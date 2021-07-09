@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/static/css/applicants/list.css" />
+    <link rel="stylesheet" href="/static/css/applicants/inline.css" />
+    <link
+      rel="shortcut icon"
+      href="/static/image/favicons.ico"
+      type="image/x-icon"
+    />
+
+    <style>
+      table {
+        right: -35px;
+      }
+
+      @media screen and (max-width: 1200px) {
+        table {
+          margin-left: 0;
+          right: 0;
+        }
+      }
+    </style>
+    <title>Аналитика</title>
+  </head>
+  <body id="start">
+    <%-include('../header.ejs') %>
+    <div class="container" id="main"></div>
+    <a href="#start" class="button btn btn-dark btn-lg">&uArr;</a>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.3.2/dist/chart.min.js"></script>
+    <script>
+      async function start() {
+        let resp = await fetch('/static/applicants_statistic.json')
+        const fetchData = await resp.json()
+        resp = await fetch('/static/applicants_statistic_old.json')
+        const fetchDataOld = await resp.json()
+        const container = document.querySelector('#main')
+        for (let i = 0; i < Object.entries(fetchData).length; i++) {
+          const [key, value] = Object.entries(fetchData)[i]
+          const [keyOld, valueOld] = Object.entries(fetchDataOld)[i]
+          const canvas = document.createElement('canvas')
+          const details = document.createElement('details')
+          const summary = document.createElement('summary')
+          const wrapper = document.createElement('div')
+
+          const table = document.createElement('table')
+          const thead = document.createElement('thead')
+          const tbody = document.createElement('tbody')
+          const headTr = document.createElement('tr')
+          const headThId = document.createElement('th')
+          const headThKey = document.createElement('th')
+          const headThVal = document.createElement('th')
+          const headThValOld = document.createElement('th')
+
+          const ctx = canvas.getContext('2d')
+
+          summary.innerText = key
+          canvas.style.maxHeight = '70vh'
+          details.classList.add('mt-4')
+          details.setAttribute('open', true)
+          wrapper.classList.add('inline')
+
+          table.classList.add('table', 'table-striped')
+          headThId.innerText = '#'
+          headThId.setAttribute('scope', 'col')
+          headThKey.innerText = key
+          headThKey.setAttribute('scope', 'col')
+          headThVal.innerText = 'Значение за 2021'
+          headThVal.setAttribute('scope', 'col')
+          headThValOld.innerText = 'Значение за 2020'
+          headThValOld.setAttribute('scope', 'col')
+
+          for (let idx = 0; idx < Object.entries(value).length; idx++) {
+            const [label, val] = Object.entries(value)[idx]
+            const [_, valOld] = Object.entries(valueOld)[idx]
+            const tr = document.createElement('tr')
+            const thId = document.createElement('th')
+            const tdKey = document.createElement('td')
+            const tdVal = document.createElement('td')
+            const tdValOld = document.createElement('td')
+
+            thId.setAttribute('scope', 'row')
+            thId.innerText = idx + 1
+            tdKey.innerText = label
+            tdVal.innerText = val
+            tdValOld.innerText = valOld
+
+            tr.append(thId, tdKey, tdValOld, tdVal)
+
+            tbody.append(tr)
+          }
+
+          thead.append(headThId, headThKey, headThValOld, headThVal)
+          table.append(thead, tbody)
+
+          wrapper.append(canvas, table)
+          details.append(summary, wrapper)
+          container.append(details)
+
+          const data = {
+            labels: [],
+            datasets: [
+              {
+                label: key + ' за 2021',
+                data: [],
+                backgroundColor: [],
+              },
+              {
+                label: keyOld + ' за 2020',
+                data: [],
+                backgroundColor: [],
+              },
+            ],
+          }
+
+          const color = getRandomColor()
+          const colorOld = getRandomColor()
+
+          for (let j = 0; j < Object.entries(value).length; j++) {
+            const [label, val] = Object.entries(value)[j]
+            const [labelOld, valOld] = Object.entries(valueOld)[j]
+            data.labels.push(label)
+
+            data.datasets[0].backgroundColor.unshift(color)
+            data.datasets[0].data.push(val)
+            data.datasets[1].backgroundColor.push(colorOld)
+            data.datasets[1].data.push(valOld)
+          }
+
+          const chart = new Chart(ctx, {
+            type: 'bar',
+            data: data,
+            options: {},
+          })
+        }
+      }
+
+      function getRandomColor() {
+        return 'hsl(' + Math.random() * 360 + ', 100%, 75%)'
+      }
+
+      start()
+    </script>
+    <script>
+      let lastScrollTop = 0
+      const btn = document.querySelector('.button')
+      document.addEventListener('scroll', event => {
+        event.preventDefault()
+        let st = window.pageYOffset || document.documentElement.scrollTop
+        if (st > lastScrollTop) {
+          btn.classList.remove('down')
+          btn.classList.add('up')
+        } else {
+          btn.classList.remove('up')
+          btn.classList.add('down')
+        }
+        lastScrollTop = st <= 0 ? 0 : st
+      })
+    </script>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+.button {
+  position: fixed;
+  right: 40px;
+  bottom: -50px;
+  background: #212529ec;
+  transition: all 0.2s;
+}
+
+.up {
+  bottom: 40px;
+}
+
+.down {
+  bottom: -50px;
+}

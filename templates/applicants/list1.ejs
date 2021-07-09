@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="shortcut icon"
+      href="/static/image/favicons.ico"
+      type="image/x-icon"
+    />
+
+    <style>
+      [v-cloak] {
+        display: none;
+      }
+    </style>
+    <title>Информация о приёме</title>
+  </head>
+  <body id="start">
+    <%-include('../header.ejs') %>
+    <div class="container">
+      <div id="app" v-cloak>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Уровень образования</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr v-for="(el, idx) of list">
+              <th scope="row">{{ idx + 1 }}</th>
+              <td>
+                <a :href="el">{{ el }}</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <script>
+      new Vue({
+        el: '#app',
+
+        data: {
+          list: [],
+          napravlenieForm: '',
+          osnovanieForm: '',
+          timeForm: '',
+          prizeForm: '',
+        },
+
+        async mounted() {
+          const resp = await fetch(
+            window.location.origin + '/api/applicants/get/'
+          )
+          const data = await resp.json()
+          const s = new Set()
+          for (const { TrainingLevel } of data) {
+            s.add(TrainingLevel)
+          }
+
+          this.list = s
+        },
+      })
+    </script>
+  </body>
+</html>

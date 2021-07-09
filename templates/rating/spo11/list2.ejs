@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/static/css/applicants/list.css" />
+    <link
+      rel="shortcut icon"
+      href="/static/image/favicons.ico"
+      type="image/x-icon"
+    />
+
+    <style>
+      [v-cloak] {
+        display: none;
+      }
+    </style>
+    <title>Рейтинг - СПО</title>
+  </head>
+  <body id="start">
+    <%-include('../../header.ejs') %>
+    <div class="container">
+      <div id="app" v-cloak>
+        <div v-if="list.NumMest">
+          <div class="mt-5">
+            <div class="m-2 my-4">
+              <h5>Уровень образования - СПО</h5>
+              <h5>Направление/Специальность - {{ list.Napravlenie }}</h5>
+              <h5>Форма обучения - {{ list.Form }}</h5>
+              <h5>Источник финансирования - Бюджетная основа</h5>
+              <h5>Число мест - {{ list.NumMest }}</h5>
+            </div>
+            <div v-if="budget.EnrolledAbits.length">
+              <details open>
+                <summary class="alert alert-success" role="alert">
+                  Зачислены
+                  <strong>({{ budget.EnrolledAbits.length }})</strong>
+                </summary>
+                <table class="table table-striped">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">ФИО</th>
+                      <th scope="col">Документ об образовании</th>
+                      <th scope="col">Наличие ИД</th>
+                      <th scope="col">Средний балл аттестата</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr v-for="(el, idx) of budget.EnrolledAbits">
+                      <th scope="row">{{ idx + 1 }}</th>
+                      <td>{{ el.FIO }}</td>
+                      <td>{{ el.Document }}</td>
+                      <td v-if="el.hasID">Да</td>
+                      <td v-else>Нет</td>
+                      <td>{{ el.Attestat }}</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </details>
+            </div>
+
+            <details open class="mt-5">
+              <summary class="alert alert-warning" role="alert">
+                Заявления
+                <strong>({{ budget.Abits.length }})</strong>
+              </summary>
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">ФИО</th>
+                    <th scope="col">Документ об образовании</th>
+                    <th scope="col">Наличие ИД</th>
+                    <th scope="col">Средний балл аттестата</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr v-for="(el, idx) of budget.Abits">
+                    <th scope="row">{{ idx + 1 }}</th>
+                    <td>{{ el.FIO }}</td>
+                    <td>{{ el.Document }}</td>
+                    <td v-if="el.hasID">Да</td>
+                    <td v-else>Нет</td>
+                    <td>{{ el.Attestat }}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </details>
+          </div>
+        </div>
+        <div v-if="list.NumMestPl">
+          <div class="mt-5">
+            <div class="m-2 my-4">
+              <h5>Уровень образования - СПО</h5>
+              <h5>Направление/Специальность - {{ list.Napravlenie }}</h5>
+              <h5>Форма обучения - {{ list.Form }}</h5>
+              <h5>Источник финансирования - Полное возмещение затрат</h5>
+              <h5>Число мест - {{ list.NumMestPl }}</h5>
+            </div>
+            <div v-if="platnik.EnrolledAbits.length">
+              <details open>
+                <summary class="alert alert-success" role="alert">
+                  Зачислены
+                  <strong>({{ platnik.EnrolledAbits.length }})</strong>
+                </summary>
+                <table class="table table-striped">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">ФИО</th>
+                      <th scope="col">Документ об образовании</th>
+                      <th scope="col">Наличие ИД</th>
+                      <th scope="col">Средний балл аттестата</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr v-for="(el, idx) of platnik.EnrolledAbits">
+                      <th scope="row">{{ idx + 1 }}</th>
+                      <td>{{ el.FIO }}</td>
+                      <td>{{ el.Document }}</td>
+                      <td v-if="el.hasID">Да</td>
+                      <td v-else>Нет</td>
+                      <td>{{ el.Attestat }}</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </details>
+            </div>
+            <details open class="mt-5">
+              <summary class="alert alert-warning" role="alert">
+                Заявления
+                <strong>({{ platnik.Abits.length }})</strong>
+              </summary>
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">ФИО</th>
+                    <th scope="col">Документ об образовании</th>
+                    <th scope="col">Наличие ИД</th>
+                    <th scope="col">Средний балл аттестата</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr v-for="(el, idx) of platnik.Abits">
+                    <th scope="row">{{ idx + 1 }}</th>
+                    <td>{{ el.FIO }}</td>
+                    <td>{{ el.Document }}</td>
+                    <td v-if="el.hasID">Да</td>
+                    <td v-else>Нет</td>
+                    <td>{{ el.Attestat }}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </details>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#start" class="button btn btn-dark btn-lg">&uArr;</a>
+    <span id="id" style="visibility: hidden"><%= id %></span>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <script>
+      new Vue({
+        el: '#app',
+
+        data: {
+          list: [],
+          id: '',
+          budget: [],
+          platnik: [],
+        },
+
+        async mounted() {
+          const id = document.querySelector('#id').innerHTML
+          this.id = id
+          document.querySelector('#id').remove()
+          const resp = await fetch(
+            location.origin + '/static/rating_spo11.json'
+          )
+          const data = await resp.json()
+          this.list = data.find(el => el.Napravlenie === id)
+          this.budget = {
+            Abits: this.list.Abits.filter(
+              el => el.Finansirovanie === 'Бюджетная основа'
+            ),
+            EnrolledAbits: this.list.EnrolledAbits.filter(
+              el => el.Finansirovanie === 'Бюджетная основа'
+            ),
+          }
+          this.platnik = {
+            Abits: this.list.Abits.filter(
+              el => el.Finansirovanie === 'Полное возмещение затрат'
+            ),
+            EnrolledAbits: this.list.EnrolledAbits.filter(
+              el => el.Finansirovanie === 'Полное возмещение затрат'
+            ),
+          }
+        },
+      })
+
+      let lastScrollTop = 0
+      const btn = document.querySelector('.button')
+      document.addEventListener('scroll', event => {
+        event.preventDefault()
+        let st = window.pageYOffset || document.documentElement.scrollTop
+        if (st > lastScrollTop) {
+          btn.classList.remove('down')
+          btn.classList.add('up')
+        } else {
+          btn.classList.remove('up')
+          btn.classList.add('down')
+        }
+        lastScrollTop = st <= 0 ? 0 : st
+      })
+    </script>
+  </body>
+</html>

@@ -1,0 +1,6869 @@
+[
+  {
+    "Napravlenie": "31.02.01 Лечебное дело",
+    "Form": "Очная",
+    "NumMest": 40,
+    "NumMestPl": 35,
+    "EnrolledAbits": [],
+    "Abits": [
+      {
+        "FIO": "Глухов Максим Константинович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 5,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Сахарова Дарья Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 5,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Давыдова Олеся Дмитриевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 5,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Новохатская Эрика Юрьевна",
+        "Document": "Копия",
+        "hasID": true,
+        "Attestat": 5,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Бельденинова Ксения Алексеевна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 5,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Сивко Екатерина Андреевна",
+        "Document": "Копия",
+        "hasID": true,
+        "Attestat": 5,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Микула Виктория Андреевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 5,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Втулкина Милена Максимовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 5,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Втулкина Милена Максимовна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 5,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Лебедева Валерия Алексеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 5,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Лебедева Валерия Алексеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 5,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Сидорова Дарья Алексеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 5,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Карелов Дмитрий Евгеньевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 5,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Глухов Максим Константинович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 5,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Бездомный Пантелеймон Маркович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.94,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Банёва Виктория Олеговна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.94,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Миронюк Анастасия Евгеньевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.93,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Казак Эвелина Александровна",
+        "Document": "Копия",
+        "hasID": true,
+        "Attestat": 4.93,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Ражева Светлана Сергеевна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.93,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Казак Эвелина Александровна",
+        "Document": "Копия",
+        "hasID": true,
+        "Attestat": 4.93,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Савенко Алёна Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.92,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Птичкина Наталья Геннадьевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.89,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Овсянникова Анастасия Александровна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.88,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Овсянникова Анастасия Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.88,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Забелавичуте Мария Альвидовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.88,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Шахина Дарья Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.88,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Корзина Юлия Витальевна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.87,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Долгинцева Екатерина Владимировна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.86,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Коровкина Анна Дмитриевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.86,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Амелько Наталья Михайловна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.85,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Амелько Наталья Михайловна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.85,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Шакало Елена Николаевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.82,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Шакало Елена Николаевна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.82,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Попова Елизавета Андреевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.81,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Белов Александр Евгеньевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.81,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Авдюкова Полина Данииловна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.81,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Григорова Наталья Евгеньевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.81,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Карагодова Дарья Владимировна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.81,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Бугаенко Анастасия Дмитриевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.8,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Кучин Алексей Викторович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.79,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Моисеенко Анастасия Константиновна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.79,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Бацкель Сергей Борисович",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.77,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Липнягова Виталина Николаевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.77,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Бацкель Сергей Борисович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.77,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Буданаева Елена Валентиновна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.76,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Буданаева Елена Валентиновна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.76,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Хорошман Екатерина Андреевна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.75,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Хорошман Екатерина Андреевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.75,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Кроваткина Екатерина Денисовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.75,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Моисеева Ангелина Васильевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.74,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Гайтамирова Таисия Абубакаровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.73,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Гайтамирова Таисия Абубакаровна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.73,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Шахян Мэри Ашотовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.72,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Кибартас Вероника Викторовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.71,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Светкина Екатерина Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.71,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Светкина Екатерина Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.71,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Сахоненко Татьяна Игоревна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.7,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Краузайте Екатерина Видмантовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.69,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Никитина Нина Алексеевна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.67,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Джураев Аюбджон Умарович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.67,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Никитина Нина Алексеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.67,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Боровая Елизавета Владимировна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.67,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Боровая Елизавета Владимировна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.67,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Татаринова Виктория Денисовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.65,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Ховралева Анна Андреевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.65,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Татаринова Виктория Денисовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.65,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Черненко Татьяна Дмитриевна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.65,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Павлова Анастасия Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.64,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Богомолова Валерия Игоревна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.64,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Богомолова Валерия Игоревна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.64,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Колташева Алиса Витальевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.63,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Велиева Алина Мансуровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.63,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Прохорова Виктория Евгеньевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.63,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Дьяконова Валерия Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.61,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Дьяконова Валерия Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.61,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Зиняева Екатерина Витальевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.6,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Зиняева Екатерина Витальевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.6,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Гайворонский Иван Евгеньевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.6,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Чумак Екатерина Андреевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.6,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Бережная Ника Алексеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.6,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Пашкова Ксения Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.59,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Гончарова Наталья Владимировна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.58,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Гончарова Наталья Владимировна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.58,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Дергоусова Карина Валерьевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.57,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Зимина Снежана Витальевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.56,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Зимина Снежана Витальевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.56,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Чернышева Полина Евгеньевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.56,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Биркина Александра Витальевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.54,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Кузьмина Лидия Алексеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.54,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Кузьмина Лидия Алексеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.54,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Вершинин Дмитрий Вячеславович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.54,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Власенко Елена Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.53,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Терещук Карина Михайловна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.53,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Терещук Карина Михайловна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.53,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Баранова Анастасия Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.53,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Баранова Анастасия Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.53,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Вист Арина Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.5,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Вист Арина Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.5,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Волкова Полина Андреевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.5,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Волкова Полина Андреевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.5,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Бурцева Карина Игоревна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.5,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Бурцева Карина Игоревна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.5,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Сербулова Алёна Алексеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.47,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Сербулова Алёна Алексеевна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.47,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Ерошенкова Арина Игоревна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.47,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Петрова Алиса Николаевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.47,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Петрова Алиса Николаевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.47,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Гарбузюк Дарья Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.47,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Гарбузюк Дарья Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.47,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Моторина Наталья Артемовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.47,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Моторина Наталья Артемовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.47,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Столярова Анна Вячеславовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.46,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Воинова Анна Дмитриевна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.44,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Воинова Анна Дмитриевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.44,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Никулина Анжела Магамедовна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.44,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Сорокина Диана Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.44,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Сорокина Диана Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.44,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Гомзякова Виктория Владиславовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.43,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Гомзякова Виктория Владиславовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.43,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Бычков Илья Сергеевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.43,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Гюлумян Людмила Артаковна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.41,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Янутис Дарья Антановна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.41,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Веретенников Владимир Сергеевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.41,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Веретенников Владимир Сергеевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.41,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Логачева Олеся Витальевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.4,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Спицына Арина Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.4,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Головлёв Данила Вячеславович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.4,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Спицына Арина Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.4,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Сизова Светлана Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.39,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Зайкаускайте Евгения Валентиновна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.39,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Сизова Светлана Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.39,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Руфуллаев Дадаш Мубариз оглы",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.39,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Зайкаускайте Евгения Валентиновна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.39,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Руфуллаев Дадаш Мубариз оглы",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.39,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Сорокина Дарья Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.38,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Сорокина Дарья Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.38,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Велавичюте Эмилия",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.36,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Минько Екатерина Константиновна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.36,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Минько Екатерина Константиновна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.36,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Наливайко Елизавета Игоревна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.36,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Наливайко Елизавета Игоревна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.36,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Дементеева Елизавета Руслановна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.35,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Глушкова Алеся Юрьевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.33,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Ликсунова Маргарита Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.33,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Некрасова Карина Вячеславовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.33,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Зуева Олеся Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.33,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Ликсунова Маргарита Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.33,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Гога Илья Витальевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.33,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Гога Илья Витальевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.33,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Лебедева Юлия Дмитриевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.33,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Зуева Олеся Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.33,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Балим Галина Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.33,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Глушкова Алеся Юрьевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.33,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Романова Николь Егоровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.32,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Бычкова Анастасия Андреевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.32,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Бычкова Анастасия Андреевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.32,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Чайкина Милана Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.31,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Хайдарова Евгения Радиковна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.31,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Анока Анна Евгеньевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.31,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Анока Анна Евгеньевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.31,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Хайдарова Евгения Радиковна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.31,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Чайкина Милана Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.31,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Алексеева Татьяна Алексеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.3,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Алексеева Татьяна Алексеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.3,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Воронина Татьяна Владимировна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.29,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Воронина Татьяна Владимировна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.29,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Лебедева Карина Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.29,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Бадан Вероника Георгиевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.29,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Лебедева Карина Сергеевна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.29,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Русаков Егор Александрович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.29,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Морозова Мария Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.29,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Аверина Анна Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.29,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Аверина Анна Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.29,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Морозова Мария Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.29,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Липатова Есения Дмитриевна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.29,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Липатова Есения Дмитриевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.29,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Горнбахер Богдан Игоревич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.28,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Горнбахер Богдан Игоревич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.28,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Малиновский Станислав Генрихович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.27,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Кизирян Арина Мурадовна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.25,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Симак Елизавета Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.25,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Рудакова Диана Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.24,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Рудакова Диана Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.24,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Моторина Ксения Артемовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.24,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Моторина Ксения Артемовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.24,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Гайнутдинова Эльмира Илгизовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.22,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Гайнутдинова Эльмира Илгизовна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.22,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Иванова Юлия Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.22,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Маркевич Дарья Владимировна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.21,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Болтиков Александр Евгеньевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.21,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Болтиков Александр Евгеньевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.21,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Часовских Александра Николаевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.21,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Цырульникова Анастасия Алексеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.2,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Хазанов Дмитрий Сергеевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.2,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Хазанов Дмитрий Сергеевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.2,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Бобров Евгений Геннадьевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.2,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Бобров Евгений Геннадьевич",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.2,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Шашерин Георгий Юрьевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.19,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Шамко Полина Николаевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.18,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Быковец Ирина Юрьевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.17,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Быковец Ирина Юрьевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.17,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Ермилова Елизавета Александровна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.17,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Ермилова Елизавета Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.17,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Луковникова Лолита Дмитриевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.15,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Луковникова Лолита Дмитриевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.15,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Киселёва Валентина Владимировна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.15,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Киселёва Валентина Владимировна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.15,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Журавлева Полина Артемовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.14,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Журавлева Полина Артемовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.14,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Лужинова Людмила Юрьевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.14,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Авакян Светлана Андраниковна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.13,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Утемова Дарья Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.13,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Утемова Дарья Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.13,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Рожкова Евгения Сергеевна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.13,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Новикова Алисия Денисовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.13,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Новикова Алисия Денисовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.13,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Зинин Артём Васильевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.13,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Зинин Артём Васильевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.13,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Авакян Светлана Андраниковна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.13,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Тарасенко Владислав Иванович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.13,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Егорова Снежана Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.13,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Сергеев Олег Сергеевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.13,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Тарасенко Владислав Иванович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.13,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Губка Александра Алексеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.13,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Губка Александра Алексеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.13,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Коваленко Мария Юрьевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.13,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Панова Полина Валерьевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.13,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Рожкова Евгения Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.13,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Вагнер Елизавета Евгеньевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.12,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Ванюкова Ангелина Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.12,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Градусова Варвара Андреевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.08,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Хроленок Александр Дмитриевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.08,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Хроленок Александр Дмитриевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.08,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Остраница Анна Денисовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.07,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Боллоева Милана Ирбековна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.07,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Остраница Анна Денисовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.07,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Туманова Екатерина Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.07,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Куцаева Софья Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.07,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Куцаева Софья Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.07,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Боллоева Милана Ирбековна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.07,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Лилиенталь Екатерина Павловна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.06,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Румянцева Мария Ивановна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.06,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Румянцева Мария Ивановна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.06,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Попова Екатерина Евгеньевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.06,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Попова Екатерина Евгеньевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.06,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Лилиенталь Екатерина Павловна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.06,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Акзамова Ангелина Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.06,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Акзамова Ангелина Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.06,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Шилкините Мария Ионовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Шерепенко Мария Дмитриевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Шилкините Мария Ионовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Багирова Гюнел Идрис кызы",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Вельмякина Татьяна Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Карловская Дарья Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Карловская Дарья Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Багирова Гюнел Идрис кызы",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Краснощекова Руслана Дмитриевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Краснощекова Руслана Дмитриевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Крестя Светлана Константиновна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.94,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Фомин Станислав Валерьевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.94,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Фомин Владислав Валерьевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.94,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Фомин Станислав Валерьевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.94,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Фомин Владислав Валерьевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.94,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Крестя Светлана Константиновна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.94,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Гоняева Дарья Дмитриевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.93,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Марунчин Валентин Викторович",
+        "Document": "Копия",
+        "hasID": true,
+        "Attestat": 3.93,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Гоняева Дарья Дмитриевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.93,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Наместникова Мария Валерьевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.92,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Клаузова Алёна Владимировна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.89,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Мечай Ксения Викторовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.89,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Юзеева Надежда Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.88,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Вдовкина Елена Евгеньевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.88,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Вдовкина Елена Евгеньевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.88,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Нагаевская Виктория Леонидовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.88,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Нагаевская Виктория Леонидовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.88,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Панасюк Елизавета Глебовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.85,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Алексанян Артур Арменович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.85,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Алексанян Артур Арменович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.85,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Панасюк Елизавета Глебовна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 3.85,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Рубанов Александр Борисович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.84,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Рубанов Александр Борисович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.84,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Немченко Юлия Андреевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.83,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Гофман Кристина Павловна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 3.82,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Казарцева Светлана Ивановна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.82,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Храпунова Милена Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.81,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Храпунова Милена Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.81,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Железнев Лев Геннадьевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.8,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Гарбар Мария Владимировна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.8,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Емельшина Дарья Васильевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.77,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Михеенко Платон Дмитриевич",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 3.76,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Сизова Амелия Константиновна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.7,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Цоль Эльвира Андреевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.69,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Цоль Эльвира Андреевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.69,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Мезенцева Екатерина Кирилловна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.67,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Варвалюк Полина Романовна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 3.67,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Путивцев Юрий Витальевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.63,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Попикова Олеся Анатольевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.56,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Драгунова Камила Фахриддиновна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 3.56,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Хассиев Данила Сосланович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.5,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Барскова Елизавета Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.5,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Барскова Елизавета Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.5,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Гулямова Ситора Дильшодовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.47,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Юргенс Маргарита",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.47,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Климов Владислав Алексеевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.44,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Данилов Сергей Александрович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.43,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Данилов Сергей Александрович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.43,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Магамадова Селима Вахаевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.36,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Нозина Александра Юрьевна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 3.35,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Стефанин Михаил Александрович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.14,
+        "Finansirovanie": "Полное возмещение затрат"
+      }
+    ]
+  },
+  {
+    "Napravlenie": "31.02.05 Стоматология ортопедическая",
+    "Form": "Очная",
+    "NumMest": 0,
+    "NumMestPl": 25,
+    "EnrolledAbits": [],
+    "Abits": [
+      {
+        "FIO": "Давыдова Олеся Дмитриевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 5,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Банёва Виктория Олеговна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.94,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Казак Эвелина Александровна",
+        "Document": "Копия",
+        "hasID": true,
+        "Attestat": 4.93,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Овсянникова Анастасия Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.88,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Григорова Наталья Евгеньевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.81,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Шахян Мэри Ашотовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.72,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Мамедов Дэниил Самандар оглы",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.71,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Гадиляускайте Виктория Дмитриевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.69,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Татаринова Виктория Денисовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.65,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Богомолова Валерия Игоревна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.64,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Чериченко Иоанна Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.63,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Дьяконова Валерия Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.61,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Григорьева Наталья Владимировна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.6,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Бережная Ника Алексеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.6,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Акимова Милена Владимировна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.59,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Гончарова Наталья Владимировна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.58,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Зимина Снежана Витальевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.56,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Тоноян Артур Мхитарович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.56,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Кузьмина Лидия Алексеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.54,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Вершинин Дмитрий Вячеславович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.54,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Терещук Карина Михайловна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.53,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Вист Арина Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.5,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Волкова Полина Андреевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.5,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Комаров Илья Олегович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.5,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Иванова София Константиновна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.5,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Бурцева Карина Игоревна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.5,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Петрова Алиса Николаевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.47,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Звягина Светлана Романовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.47,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Моторина Наталья Артемовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.47,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Типографщик Полина Эдуардовна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.46,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Черникова Мария Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.44,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Савин Александр Сергеевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.44,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Грек Владислава Владиславовна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.43,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Макаров Павел Сергеевич",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.43,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Гомзякова Виктория Владиславовна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.43,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Гюлумян Людмила Артаковна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.41,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Спицына Арина Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.4,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Руфуллаев Дадаш Мубариз оглы",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.39,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Сорокина Дарья Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.38,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Зарубина Надежда Алексеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.36,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Рудиченко Анастасия",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.36,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Абдуалиева Сабина Ахматовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.36,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Глушкова Алеся Юрьевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.33,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Ликсунова Маргарита Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.33,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Сиражудинова Залму Шамильевна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.31,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Алексеева Татьяна Алексеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.3,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Аверина Анна Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.29,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Липатова Есения Дмитриевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.29,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Кунцевич Алексей Александрович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.29,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Рушкевичюс Дарья Евгеньена",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.29,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Горнбахер Богдан Игоревич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.28,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Щукин Тимофей Михайлович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.27,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Свенян Геворг Гришикович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.25,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Моторина Ксения Артемовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.24,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Гайнутдинова Эльмира Илгизовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.22,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Болтиков Александр Евгеньевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.21,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Хазанов Дмитрий Сергеевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.2,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Цырульникова Анастасия Алексеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.2,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Мальцева Ольга Игоревна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.14,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Журавлева Полина Артемовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.14,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Новикова Алисия Денисовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.13,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Авакян Светлана Андраниковна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.13,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Тарасенко Владислав Иванович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.13,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Рожкова Евгения Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.13,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Хроленок Александр Дмитриевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.08,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Градусова Варвара Андреевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.08,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Ижикова Влада Витальевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.08,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Белова София Максимовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.07,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Боллоева Милана Ирбековна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.07,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Куцаева Софья Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.07,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Черников Руслан Сергеевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.06,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Глущенко Григорий Витальевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.06,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Ахмедова Тахмина Абдукаримовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.05,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Ивлева Валерия Алексеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Шилкините Мария Ионовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Багирова Гюнел Идрис кызы",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Фомин Станислав Валерьевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.94,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Фомин Владислав Валерьевич",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 3.94,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Алексиевич Илья Игоревич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.93,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Марунчин Валентин Викторович",
+        "Document": "Копия",
+        "hasID": true,
+        "Attestat": 3.93,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Гоняева Дарья Дмитриевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.93,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Вдовкина Елена Евгеньевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.88,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Нагаевская Виктория Леонидовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.88,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Немченко Юлия Андреевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.83,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Храпунова Милена Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.81,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Железнев Лев Геннадьевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.8,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Духневич Лидия Олеговна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.8,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Емельшина Дарья Васильевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.77,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Толстенко Андрей Николаевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.69,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Васильев Андрей Вячеславович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.64,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Драгунова Камила Фахриддиновна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.56,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Хассиев Данила Сосланович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.5,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Барскова Елизавета Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.5,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Юргенс Маргарита",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.47,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Гулямова Ситора Дильшодовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.47,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Стукаленко Денис Сергеевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.43,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Магамадова Селима Вахаевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.36,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Стефанин Михаил Александрович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.14,
+        "Finansirovanie": "Полное возмещение затрат"
+      }
+    ]
+  },
+  {
+    "Napravlenie": "31.02.03 Лабораторная диагностика",
+    "Form": "Очная",
+    "NumMest": 0,
+    "NumMestPl": 25,
+    "EnrolledAbits": [],
+    "Abits": [
+      {
+        "FIO": "Давыдова Олеся Дмитриевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 5,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Холмухамедова Таис Алексеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 5,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Банёва Виктория Олеговна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.94,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Овсянникова Анастасия Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.88,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Кроваткина Екатерина Денисовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.75,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Гадиляускайте Виктория Дмитриевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.69,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Гончарова Наталья Владимировна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.58,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Зимина Снежана Витальевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.56,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Терещук Карина Михайловна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.53,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Блоцкая Алёна Николаевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.53,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Волкова Полина Андреевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.5,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Моторина Наталья Артемовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.47,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Столярова Анна Вячеславовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.46,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Черникова Мария Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.44,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Спицына Арина Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.4,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Сизова Светлана Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.39,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Гез Ирина Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.38,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Зарубина Надежда Алексеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.36,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Велавичюте Эмилия",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.36,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Ликсунова Маргарита Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.33,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Зуева Олеся Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.33,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Русаков Егор Александрович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.29,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Аверина Анна Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.29,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Липатова Есения Дмитриевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.29,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Горнбахер Богдан Игоревич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.28,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Глинова Юлия Анатольевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.25,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Моторина Ксения Артемовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.24,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Вишневская Наталья Николаева",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.22,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Болтиков Александр Евгеньевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.21,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Коновалова Дарья Алексеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.17,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Тарасенко Владислав Иванович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.13,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Губка Александра Алексеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.13,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Хроленок Александр Дмитриевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.08,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Боллоева Милана Ирбековна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.07,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Попова Екатерина Евгеньевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.06,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Багирова Гюнел Идрис кызы",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Краснощекова Руслана Дмитриевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Гоняева Дарья Дмитриевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.93,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Наместникова Мария Валерьевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.92,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Юзеева Надежда Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.88,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Нагаевская Виктория Леонидовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.88,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Гофман Кристина Павловна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.82,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Емельшина Дарья Васильевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.77,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Михеенко Платон Дмитриевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.76,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Варвалюк Полина Романовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.67,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Барскова Елизавета Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.5,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Ханукович Александра Владимировна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.5,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Гулямова Ситора Дильшодовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.47,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Магамадова Селима Вахаевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.36,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Стефанин Михаил Александрович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.14,
+        "Finansirovanie": "Полное возмещение затрат"
+      }
+    ]
+  },
+  {
+    "Napravlenie": "18.02.12 Технология аналитического контроля химических соединений",
+    "Form": "Очная",
+    "NumMest": 30,
+    "NumMestPl": 15,
+    "EnrolledAbits": [],
+    "Abits": [
+      {
+        "FIO": "Давыдова Олеся Дмитриевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 5,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Холмухамедова Таис Алексеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 5,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Савенко Алёна Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.92,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Потапова Екатерина Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.82,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Авдюкова Полина Данииловна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.81,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Чериченко Иоанна Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.63,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Гайворонский Иван Евгеньевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.6,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Чумак Екатерина Андреевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.6,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Зимина Снежана Витальевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.56,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Соловец Екатерина Юрьевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.56,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Соловец Екатерина Юрьевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.56,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Ходосова Ирина Дмитриевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.54,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Терещук Карина Михайловна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.53,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Терещук Карина Михайловна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.53,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Исаенкова Полина Андреевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.47,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Черникова Мария Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.44,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Черникова Мария Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.44,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Бычков Илья Сергеевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.43,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Янутис Дарья Антановна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.41,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Спицына Арина Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.4,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Спицына Арина Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.4,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Гез Ирина Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.38,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Ликсунова Маргарита Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.33,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Ликсунова Маргарита Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.33,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Некрасова Карина Вячеславовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.33,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Довгополик Денис Дмитриевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.25,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Часовских Александра Николаевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.21,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Асатрян Эдгар Вартанович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.19,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Старцев Ян Вячеславович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.19,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Асатрян Эдгар Вартанович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.19,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Гайкова Ангелина Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.13,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Тарасенко Владислав Иванович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.13,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Тарасенко Владислав Иванович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.13,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Хроленок Александр Дмитриевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.08,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Хроленок Александр Дмитриевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.08,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Белова София Максимовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.07,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Белова София Максимовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.07,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Куцаева Софья Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.07,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Куцаева Софья Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.07,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Шилкините Мария Ионовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Шилкините Мария Ионовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Краснощекова Руслана Дмитриевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Краснощекова Руслана Дмитриевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Мерзлякова Александра Евгеньевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.94,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Алексиевич Илья Игоревич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.93,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Юзеева Надежда Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.88,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Бальжитов Аюр Владимирович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.88,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Бальжитов Аюр Владимирович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.88,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Коломийцев Даниил Олегович",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 3.54,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Коломийцев Даниил Олегович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.54,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Кесераускас Павел Евгеньевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.53,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Григайтис Степан Ромалдович",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 3.5,
+        "Finansirovanie": "Бюджетная основа"
+      }
+    ]
+  },
+  {
+    "Napravlenie": "34.02.01 Сестринское дело",
+    "Form": "Очная",
+    "NumMest": 60,
+    "NumMestPl": 90,
+    "EnrolledAbits": [],
+    "Abits": [
+      {
+        "FIO": "Сахарова Дарья Александровна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 5,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Свенян Каринэ Гериковна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 5,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Сидорова Дарья Алексеевна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 5,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Банёва Виктория Олеговна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.94,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Соболева Оксана Васильевна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.94,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Миронюк Анастасия Евгеньевна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.93,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Казак Эвелина Александровна",
+        "Document": "Копия",
+        "hasID": true,
+        "Attestat": 4.93,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Казак Эвелина Александровна",
+        "Document": "Копия",
+        "hasID": true,
+        "Attestat": 4.93,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Будович Анна Романовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.93,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Будович Анна Романовна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.93,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Ярисов Александр Владимирович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.9,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Птичкина Наталья Геннадьевна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.89,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Овсянникова Анастасия Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.88,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Овсянникова Анастасия Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.88,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Корзина Юлия Витальевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.87,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Долгинцева Екатерина Владимировна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.86,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Черникова Галина Витальевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.83,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Шакало Елена Николаевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.82,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Русанова Елена Ивановна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.82,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Русанова Елена Ивановна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.82,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Попова Елизавета Андреевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.81,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Авдюкова Полина Данииловна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.81,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Григорова Наталья Евгеньевна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.81,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Моисеенко Анастасия Константиновна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.79,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Липнягова Виталина Николаевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.77,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Буданаева Елена Валентиновна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.76,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Вайткунене Роксана Андреевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.74,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Моисеева Ангелина Васильевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.74,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Шахян Мэри Ашотовна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.72,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Светкина Екатерина Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.71,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Кибартас Вероника Викторовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.71,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Светкина Екатерина Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.71,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Тетерина Арина Владимировна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.71,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Тетерина Арина Владимировна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.71,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Сахоненко Татьяна Игоревна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.7,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Лукьянова Анастасия Алексеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.69,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Краузайте Екатерина Видмантовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.69,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Гадиляускайте Виктория Дмитриевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.69,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Ягудина Аделия Анваровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.65,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Богомолова Валерия Игоревна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.64,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Богомолова Валерия Игоревна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.64,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Велиева Алина Мансуровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.63,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Прохорова Виктория Евгеньевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.63,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Гайворонский Иван Евгеньевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.6,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Чумак Екатерина Андреевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.6,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Бережная Ника Алексеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.6,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Акимова Милена Владимировна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.59,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Акимова Милена Владимировна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.59,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Пашкова Ксения Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.59,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Гончарова Наталья Владимировна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.58,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Старовойтова Кристина Викторовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.58,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Гончарова Наталья Владимировна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.58,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Дергоусова Карина Валерьевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.57,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Дергоусова Карина Валерьевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.57,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Зимина Снежана Витальевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.56,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Лучихина Наталья Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.55,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Лучихина Наталья Сергеевна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.55,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Биркина Александра Витальевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.54,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Кузьмина Лидия Алексеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.54,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Кузьмина Лидия Алексеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.54,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Вершинин Дмитрий Вячеславович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.54,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Вершинин Дмитрий Вячеславович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.54,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Власенко Елена Александровна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.53,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Терещук Карина Михайловна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.53,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Баранова Анастасия Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.53,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Баранова Анастасия Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.53,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Блоцкая Алёна Николаевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.53,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Блоцкая Алёна Николаевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.53,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Петрова Ирина Вячеславовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.53,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Власенко Елена Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.53,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Вист Арина Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.5,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Шумихин Никита Матвеевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.5,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Волкова Полина Андреевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.5,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Волкова Полина Андреевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.5,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Епифанова Марина Евгеньевна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.5,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Бурцева Карина Игоревна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.5,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Бурцева Карина Игоревна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.5,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Моторина Наталья Артемовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.47,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Сербулова Алёна Алексеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.47,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Сербулова Алёна Алексеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.47,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Петрова Алиса Николаевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.47,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Петрова Алиса Николаевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.47,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Гарбузюк Дарья Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.47,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Гарбузюк Дарья Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.47,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Моторина Наталья Артемовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.47,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Гунина Арина Сергеевна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.47,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Столярова Анна Вячеславовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.46,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Никулина Анжела Магамедовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.44,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Воинова Анна Дмитриевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.44,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Воинова Анна Дмитриевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.44,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Сорокина Диана Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.44,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Сорокина Диана Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.44,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Черникова Мария Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.44,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Тюрина Диана Андреевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.43,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Гомзякова Виктория Владиславовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.43,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Гомзякова Виктория Владиславовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.43,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Гюлумян Людмила Артаковна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.41,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Янутис Дарья Антановна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.41,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Спицына Арина Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.4,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Спицына Арина Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.4,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Сизова Светлана Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.39,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Сизова Светлана Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.39,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Зайкаускайте Евгения Валентиновна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.39,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Зайкаускайте Евгения Валентиновна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.39,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Сорокина Дарья Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.38,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Сорокина Дарья Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.38,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Зарубина Надежда Алексеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.36,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Зарубина Надежда Алексеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.36,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Велавичюте Эмилия",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.36,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Абдуалиева Сабина Ахматовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.36,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Дементеева Елизавета Руслановна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.35,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Ликсунова Маргарита Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.33,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Балим Галина Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.33,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Некрасова Карина Вячеславовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.33,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Лебедева Юлия Дмитриевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.33,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Зуева Олеся Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.33,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Ликсунова Маргарита Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.33,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Зуева Олеся Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.33,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Глушкова Алеся Юрьевна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.33,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Глушкова Алеся Юрьевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.33,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Недыбалюк Анна Николаевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.32,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Романова Николь Егоровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.32,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Бычкова Анастасия Андреевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.32,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Бычкова Анастасия Андреевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.32,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Чайкина Милана Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.31,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Анока Анна Евгеньевна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.31,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Анока Анна Евгеньевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.31,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Чайкина Милана Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.31,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Лебедева Карина Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.29,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Лебедева Карина Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.29,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Морозова Мария Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.29,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Аверина Анна Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.29,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Морозова Мария Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.29,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Аверина Анна Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.29,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Воронина Татьяна Владимировна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.29,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Липатова Есения Дмитриевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.29,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Липатова Есения Дмитриевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.29,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Воронина Татьяна Владимировна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.29,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Горнбахер Богдан Игоревич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.28,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Горнбахер Богдан Игоревич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.28,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Малиновский Станислав Генрихович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.27,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Глинова Юлия Анатольевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.25,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Глинова Юлия Анатольевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.25,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Моторина Ксения Артемовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.24,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Демкив Оксана Петровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.24,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Моторина Ксения Артемовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.24,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Вишневская Наталья Николаева",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.22,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Вишневская Наталья Николаева",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.22,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Гайнутдинова Эльмира Илгизовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.22,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Гайнутдинова Эльмира Илгизовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.22,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Иванова Юлия Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.22,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Маркевич Дарья Владимировна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.21,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Часовских Александра Николаевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.21,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Иванова Екатерина Николаевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.21,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Иванова Екатерина Николаевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.21,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Рауткина Карина Валерьевна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.2,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Рауткина Карина Валерьевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.2,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Хазанов Дмитрий Сергеевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.2,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Хазанов Дмитрий Сергеевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.2,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Шашерин Георгий Юрьевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.19,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Завертеева Алина Вячеславовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.19,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Шамко Полина Николаевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.18,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Мирная Раиса Дмитриевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.17,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Быковец Ирина Юрьевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.17,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Быковец Ирина Юрьевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.17,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Луковникова Лолита Дмитриевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.15,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Луковникова Лолита Дмитриевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.15,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Киселёва Валентина Владимировна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.15,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Киселёва Валентина Владимировна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.15,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Журавлева Полина Артемовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.14,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Мальцева Ольга Игоревна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.14,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Мальцева Ольга Игоревна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.14,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Журавлева Полина Артемовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.14,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Лужинова Людмила Юрьевна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.14,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Боева Оксана Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.13,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Рожкова Евгения Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.13,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Авакян Светлана Андраниковна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.13,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Новикова Алисия Денисовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.13,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Боева Оксана Сергеевна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.13,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Авакян Светлана Андраниковна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.13,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Тарасенко Владислав Иванович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.13,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Новикова Алисия Денисовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.13,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Егорова Снежана Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.13,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Губка Александра Алексеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.13,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Губка Александра Алексеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.13,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Тарасенко Владислав Иванович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.13,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Рожкова Евгения Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.13,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Ванюкова Ангелина Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.12,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Вагнер Елизавета Евгеньевна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.12,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Ижикова Влада Витальевна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.08,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Хроленок Александр Дмитриевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.08,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Хроленок Александр Дмитриевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.08,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Туманова Екатерина Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.07,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Боллоева Милана Ирбековна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.07,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Фролова Александра Денисовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.07,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Боллоева Милана Ирбековна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.07,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Фролова Александра Денисовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.07,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Куцаева Софья Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.07,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Куцаева Софья Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.07,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Попова Екатерина Евгеньевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.06,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Попова Екатерина Евгеньевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.06,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Лилиенталь Екатерина Павловна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.06,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Лилиенталь Екатерина Павловна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.06,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Борзых Людмила Юрьевна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.06,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Борзилова Лариса Викторовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.06,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Акзамова Ангелина Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.06,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Акзамова Ангелина Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.06,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Ахмедова Тахмина Абдукаримовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.05,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Ивлева Валерия Алексеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Ивлева Валерия Алексеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Шилкините Мария Ионовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Шилкините Мария Ионовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Шерепенко Мария Дмитриевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Вельмякина Татьяна Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Григорян Галина Араевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Григорян Галина Араевна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Степахин Александр Иванович",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Карловская Дарья Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Карловская Дарья Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Багирова Гюнел Идрис кызы",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Багирова Гюнел Идрис кызы",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Крестя Светлана Константиновна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.94,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Крестя Светлана Константиновна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.94,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Майер Алина Евгеньевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.94,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Майер Алина Евгеньевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.94,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Агабабян Эрминэ Грайровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.93,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Агабабян Эрминэ Грайровна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 3.93,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Гоняева Дарья Дмитриевна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 3.93,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Наместникова Мария Валерьевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.92,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Клаузова Алёна Владимировна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.89,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Мечай Ксения Викторовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.89,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Вдовкина Елена Евгеньевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.88,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Юзеева Надежда Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.88,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Вдовкина Елена Евгеньевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.88,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Нагаевская Виктория Леонидовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.88,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Нагаевская Виктория Леонидовна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 3.88,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Корнилов Боодим Николаевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.87,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Корнилович Диана Андреевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.86,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Панасюк Елизавета Глебовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.85,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Панасюк Елизавета Глебовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.85,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Казарцева Светлана Ивановна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.82,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Гофман Кристина Павловна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.82,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Храпунова Милена Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.81,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Храпунова Милена Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.81,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Железнев Лев Геннадьевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.8,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Гарбар Мария Владимировна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 3.8,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Рамазанова Селимат Камалутдиновна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.79,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Рамазанова Селимат Камалутдиновна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.79,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Емельшина Дарья Васильевна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 3.77,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Михеенко Платон Дмитриевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.76,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Сизова Амелия Константиновна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.7,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Цоль Эльвира Андреевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.69,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Цоль Эльвира Андреевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.69,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Варвалюк Полина Романовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.67,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Мезенцева Екатерина Кирилловна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.67,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Варвалюк Полина Романовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.67,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Попикова Олеся Анатольевна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 3.56,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Драгунова Камила Фахриддиновна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.56,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Хассиев Данила Сосланович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.5,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Барскова Елизавета Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.5,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Барскова Елизавета Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.5,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Юргенс Маргарита",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.47,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Гулямова Ситора Дильшодовна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 3.47,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Климов Владислав Алексеевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.44,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Вольф Елизавета Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.38,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Магамадова Селима Вахаевна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 3.36,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Стефанин Михаил Александрович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.14,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Тест Записидва",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 1,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Тест Записи",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 1,
+        "Finansirovanie": "Бюджетная основа"
+      }
+    ]
+  },
+  {
+    "Napravlenie": "33.02.01 Фармация",
+    "Form": "Очная",
+    "NumMest": 15,
+    "NumMestPl": 35,
+    "EnrolledAbits": [],
+    "Abits": [
+      {
+        "FIO": "Сахарова Дарья Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 5,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Микула Виктория Андреевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 5,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Новохатская Эрика Юрьевна",
+        "Document": "Копия",
+        "hasID": true,
+        "Attestat": 5,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Шехурдина Алена Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 5,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Лебедева Валерия Алексеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 5,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Сидорова Дарья Алексеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 5,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Холмухамедова Таис Алексеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 5,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Глухов Максим Константинович",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 5,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Банёва Виктория Олеговна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.94,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Медведева Анастасия Андреевна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.93,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Медведева Анастасия Андреевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.93,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Савенко Алёна Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.92,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Золотарёва Елизавета Руслановна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.89,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Золотарёва Елизавета Руслановна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.89,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Овсянникова Анастасия Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.88,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Овсянникова Анастасия Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.88,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Корзина Юлия Витальевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.87,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Долгинцева Екатерина Владимировна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.86,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Коровкина Анна Дмитриевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.86,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Черникова Галина Витальевна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.83,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Шабалина Таисия Олеговна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.83,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Шабалина Таисия Олеговна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.83,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Потапова Екатерина Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.82,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Авдюкова Полина Данииловна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.81,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Попова Елизавета Андреевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.81,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Моисеенко Анастасия Константиновна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.79,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Моисеенко Анастасия Константиновна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.79,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Кучин Алексей Викторович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.79,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Липнягова Виталина Николаевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.77,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Шахян Мэри Ашотовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.72,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Краузайте Екатерина Видмантовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.69,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Лукьянова Анастасия Алексеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.69,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Сафонова Юлия Алексеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.68,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Боровая Елизавета Владимировна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.67,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Боровая Елизавета Владимировна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.67,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Павлова Анастасия Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.64,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Зиняева Екатерина Витальевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.6,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Гайворонский Иван Евгеньевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.6,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Чумак Екатерина Андреевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.6,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Зимина Снежана Витальевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.56,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Вершинин Дмитрий Вячеславович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.54,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Биркина Александра Витальевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.54,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Вершинин Дмитрий Вячеславович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.54,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Кузьмина Лидия Алексеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.54,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Кузьмина Лидия Алексеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.54,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Терещук Карина Михайловна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.53,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Терещук Карина Михайловна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.53,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Баранова Анастасия Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.53,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Петрова Ирина Вячеславовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.53,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Власенко Елена Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.53,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Комаров Илья Олегович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.5,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Комаров Илья Олегович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.5,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Гюлумян Диана Валериковна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.5,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Гюлумян Диана Валериковна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.5,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Бурцева Карина Игоревна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.5,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Бурцева Карина Игоревна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.5,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Моторина Наталья Артемовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.47,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Крафт Анастасия Вячеславовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.47,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Крафт Анастасия Вячеславовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.47,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Моторина Наталья Артемовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.47,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Глебова Эльза Станиславовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.47,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Глебова Эльза Станиславовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.47,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Гайтамирова Лейла Абубакаровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.47,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Гайтамирова Лейла Абубакаровна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.47,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Типографщик Полина Эдуардовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.46,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Столярова Анна Вячеславовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.46,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Типографщик Полина Эдуардовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.46,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Дулова Валерия Дмитриевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.44,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Бычков Илья Сергеевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.43,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Гюлумян Людмила Артаковна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.41,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Гончарук Алина Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.4,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Спицына Арина Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.4,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Спицына Арина Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.4,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Гез Ирина Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.38,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Абдуалиева Сабина Ахматовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.36,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Дементеева Елизавета Руслановна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.35,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Ликсунова Маргарита Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.33,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Некрасова Карина Вячеславовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.33,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Зуева Олеся Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.33,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Ликсунова Маргарита Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.33,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Зуева Олеся Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.33,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Роговская Мария Андреевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.33,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Роговская Мария Андреевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.33,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Балим Галина Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.33,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Романова Николь Егоровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.32,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Бычкова Анастасия Андреевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.32,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Бычкова Анастасия Андреевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.32,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Лебедева Карина Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.29,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Воронина Татьяна Владимировна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.29,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Лебедева Карина Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.29,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Аверина Анна Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.29,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Аверина Анна Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.29,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Липатова Есения Дмитриевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.29,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Липатова Есения Дмитриевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.29,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Воронина Татьяна Владимировна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.29,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Горнбахер Богдан Игоревич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.28,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Горнбахер Богдан Игоревич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.28,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Малиновский Станислав Генрихович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.27,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Глинова Юлия Анатольевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.25,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Симак Елизавета Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.25,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Моторина Ксения Артемовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.24,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Моторина Ксения Артемовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.24,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Маркевич Дарья Владимировна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.21,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Часовских Александра Николаевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.21,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Хазанов Дмитрий Сергеевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.2,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Цырульникова Анастасия Алексеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.2,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Хазанов Дмитрий Сергеевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.2,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Старцев Ян Вячеславович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.19,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Жарова Юлия Алексеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.17,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Жарова Юлия Алексеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.17,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Быковец Ирина Юрьевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.17,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Коновалова Дарья Алексеевна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.17,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Коновалова Дарья Алексеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.17,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Быковец Ирина Юрьевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.17,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Глушкова Александра Валериевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.17,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Киселёва Валентина Владимировна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.15,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Киселёва Валентина Владимировна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.15,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Боева Оксана Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.13,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Тарасенко Владислав Иванович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.13,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Колесникова Юлия Николаевна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.13,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Егорова Снежана Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.13,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Губка Александра Алексеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.13,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Губка Александра Алексеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.13,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Тарасенко Владислав Иванович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.13,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Рожкова Евгения Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.13,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Рожкова Евгения Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.13,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Вагнер Елизавета Евгеньевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.12,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Марковская Валерия Андреевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.08,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Марковская Валерия Андреевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.08,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Градусова Варвара Андреевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.08,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Хроленок Александр Дмитриевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.08,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Хроленок Александр Дмитриевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.08,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Белова София Максимовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.07,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Боллоева Милана Ирбековна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.07,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Боллоева Милана Ирбековна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.07,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Остраница Анна Денисовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.07,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Куцаева Софья Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.07,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Куцаева Софья Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.07,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Остраница Анна Денисовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.07,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Белова София Максимовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.07,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Краснощекова Руслана Дмитриевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Шилкините Мария Ионовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Шилкините Мария Ионовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Багирова Гюнел Идрис кызы",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Карловская Дарья Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Карловская Дарья Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Багирова Гюнел Идрис кызы",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Краснощекова Руслана Дмитриевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Мерзлякова Александра Евгеньевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.94,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Гоняева Дарья Дмитриевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.93,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Алексиевич Илья Игоревич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.93,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Агабабян Эрминэ Грайровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.93,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Агабабян Эрминэ Грайровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.93,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Гоняева Дарья Дмитриевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.93,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Наместникова Мария Валерьевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.92,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Юзеева Надежда Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.88,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Вдовкина Елена Евгеньевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.88,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Немченко Юлия Андреевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.83,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Храпунова Милена Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.81,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Храпунова Милена Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.81,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Духневич Лидия Олеговна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.8,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Михеенко Платон Дмитриевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.76,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Драгунова Камила Фахриддиновна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.56,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Барскова Елизавета Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.5,
+        "Finansirovanie": "Бюджетная основа"
+      },
+      {
+        "FIO": "Барскова Елизавета Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.5,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Гулямова Ситора Дильшодовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.47,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Юргенс Маргарита",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.47,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Климов Владислав Алексеевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.44,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Магамадова Селима Вахаевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.36,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Нозина Александра Юрьевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.35,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Стефанин Михаил Александрович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.14,
+        "Finansirovanie": "Полное возмещение затрат"
+      }
+    ]
+  },
+  {
+    "Napravlenie": "08.02.04 Водоснабжение и водоотведение",
+    "Form": "Очная",
+    "NumMest": 0,
+    "NumMestPl": 20,
+    "EnrolledAbits": [],
+    "Abits": [
+      {
+        "FIO": "Комаров Илья Олегович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.5,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Корнев Максим Александрович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.47,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Черникова Мария Александровна",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.44,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Есаян Рафик Мгерович",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 4.44,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Дрозд Виталий Евгеньевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.4,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Ликсунова Маргарита Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.33,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Зубрицкая Анастасия Алексеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.29,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Рушкевичюс Дарья Евгеньена",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.29,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Гайнутдинова Эльмира Илгизовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.22,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Асатрян Эдгар Вартанович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.19,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Гайкова Ангелина Сергеевна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.13,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Тарасенко Владислав Иванович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.13,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Хроленок Александр Дмитриевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.08,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Куцаева Софья Александровна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4.07,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Куцанов Данил Алексеевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 4,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Алексиевич Илья Игоревич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.93,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Киреев Вадим Сергеевич",
+        "Document": "Оригинал",
+        "hasID": false,
+        "Attestat": 3.88,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Нагаевская Виктория Леонидовна",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.88,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Заварзин Георгий Ильич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.86,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Кесераускас Павел Евгеньевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.53,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Уколов Алексей Валерьевич",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.5,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Дейкин Артём Русланович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.5,
+        "Finansirovanie": "Полное возмещение затрат"
+      },
+      {
+        "FIO": "Стефанин Михаил Александрович",
+        "Document": "Копия",
+        "hasID": false,
+        "Attestat": 3.14,
+        "Finansirovanie": "Полное возмещение затрат"
+      }
+    ]
+  }
+]

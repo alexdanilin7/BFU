@@ -1,0 +1,155 @@
+<header class="p-3 bg-dark text-white">
+  <div class="container">
+    <div
+      class="
+        d-flex
+        flex-wrap
+        align-items-center
+        justify-content-center justify-content-lg-start
+      "
+    >
+      <ul
+        class="
+          nav
+          col-12 col-lg-auto
+          me-lg-auto
+          mb-2
+          justify-content-center
+          mb-md-0
+        "
+      >
+        <li>
+          <div class="btn-group">
+            <a href="/" class="btn btn-dark nav-link text-secondary">
+              Пофамильные списки лиц, подавших документы в БФУ им. И. Канта
+            </a>
+            <button
+              type="button"
+              class="btn btn-dark dropdown-toggle dropdown-toggle-split"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <span class="visually-hidden">Toggle Dropdown</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-dark bg-dark">
+              <li>
+                <a
+                  class="dropdown-item nav-link px-2 text-secondary"
+                  href="/statistic/applicants/"
+                  >Статистика</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item nav-link px-2 text-secondary"
+                  href="/analitics/applicants/"
+                  >Анализ</a
+                >
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <div class="dropdown">
+            <button
+              class="
+                btn btn-dark
+                dropdown-toggle
+                bg-dark
+                text-secondary
+                dropdown-toggle-split
+              "
+              type="button"
+              id="rating"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Рейтинговые списки поступающих
+            </button>
+            <ul
+              class="dropdown-menu dropdown-menu-dark bg-dark"
+              aria-labelledby="rating"
+            >
+              <li>
+                <a
+                  class="dropdown-item nav-link text-secondary px-2"
+                  href="/rating/spo9/"
+                  >СПО (9 классов)</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item nav-link text-secondary px-2"
+                  href="/rating/spo11/"
+                  >СПО (11 классов)</a
+                >
+              </li>
+              <!--<li>
+                <a
+                  class="dropdown-item nav-link text-secondary"
+                  href="/rating/bak/"
+                  >Бакалавриат</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item nav-link text-secondary"
+                  href="/rating/spec/"
+                  >Специалитет</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item nav-link text-secondary"
+                  href="/rating/mag/"
+                  >Магистратура</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item nav-link text-secondary"
+                  href="/rating/ord/"
+                  >Ординатура</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item nav-link text-secondary"
+                  href="/rating/asp/"
+                  >Аспирантура</a
+                >
+              </li>-->
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<script>
+  function styleNavbar(...array) {
+    for (const el of array) {
+      if (document.location.pathname.startsWith(el)) {
+        document
+          .querySelector(`.nav-link[href="${el}"]`)
+          .classList.remove('text-secondary')
+        document.querySelector(`.nav-link[href="${el}"]`).style.color = 'white'
+        break
+      }
+    }
+  }
+
+  styleNavbar(
+    '/statistic/applicants/',
+    '/analitics/applicants/',
+    '/rating/spo9/',
+    '/rating/spo11/',
+    '/rating/bak/',
+    '/rating/mag/',
+    '/rating/spec/',
+    '/rating/ord/',
+    '/rating/asp/',
+    '/'
+  )
+</script>

@@ -1,0 +1,101 @@
+[
+  {
+    "Napravlenie": "Высший матан",
+    "Form": "Очная",
+    "NumMest": 7,
+    "NumParava": 2,
+    "NumCelevoy": 1,
+    "EnrolledAbits": [
+      {
+        "FIO": "Иванов Иван Иванович",
+        "CelevoyPriem": "Особое право",
+        "Finansirovanie": "Бюджет",
+        "Vstuplenie": 100,
+        "Attestat": 4.9,
+        "IDs": {
+          "total": 2,
+          "detail": [
+            {
+              "name": "ГТО",
+              "value": 2
+            },
+            {
+              "name": "Волонтёрство",
+              "value": 0
+            }
+          ]
+        },
+        "Soglasie": true,
+        "KonkursTotal": 148
+      },
+      {
+        "FIO": "Иванов Иван Иванович",
+        "CelevoyPriem": "",
+        "Finansirovanie": "Платное",
+        "Vstuplenie": 100,
+        "Attestat": 4.9,
+        "IDs": {
+          "total": 2,
+          "detail": [
+            {
+              "name": "ГТО",
+              "value": 2
+            },
+            {
+              "name": "Волонтёрство",
+              "value": 5
+            }
+          ]
+        },
+        "Soglasie": true,
+        "KonkursTotal": 148
+      }
+    ],
+    "Abits": [
+      {
+        "FIO": "Петров Петр Петрович",
+        "CelevoyPriem": "",
+        "Finansirovanie": "Платное",
+        "Vstuplenie": 90,
+        "Attestat": 4.9,
+        "IDs": {
+          "total": 2,
+          "detail": [
+            {
+              "name": "ГТО",
+              "value": 2
+            },
+            {
+              "name": "Волонтёрство",
+              "value": 1
+            }
+          ]
+        },
+        "Soglasie": false,
+        "KonkursTotal": 151
+      },
+      {
+        "FIO": "Петров Петр Петрович",
+        "CelevoyPriem": "",
+        "Finansirovanie": "Бюджет",
+        "Vstuplenie": 80,
+        "Attestat": 4.9,
+        "IDs": {
+          "total": 2,
+          "detail": [
+            {
+              "name": "ГТО",
+              "value": 0
+            },
+            {
+              "name": "Волонтёрство",
+              "value": 1
+            }
+          ]
+        },
+        "Soglasie": false,
+        "KonkursTotal": 151
+      }
+    ]
+  }
+]
